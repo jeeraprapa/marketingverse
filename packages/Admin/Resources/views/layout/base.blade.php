@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+
+
+    <style>
+        /* Set the height of the editor container */
+        .ck-editor__editable {
+            height: 300px !important;
+        }
+    </style>
+
+    <title>Backend</title>
+    <!-- favicon -->
+    <link rel=icon href="{{asset('images/fav.png')}}" sizes="16x16" type="icon/png">
+    <!-- bootstrap -->
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- Start Dropzone css -->
+    <link rel="stylesheet" href="{{asset('assets/css/dropzone.min.css')}}">
+    <!-- Custom fonts for this template-->
+    <link href="{{asset('vendors/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="{{asset('sb-admin-2/css/sb-admin-2.min.css')}}" rel="stylesheet">
+
+</head>
+<body id="page-top">
+
+
+<!-- Page Wrapper -->
+<div id="wrapper">
+
+    <!-- Sidebar -->
+@include('admin::layout.menu')
+<!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+        <!-- Main Content -->
+        <div id="content">
+
+            <!-- Topbar -->
+        @include('admin::layout.header')
+        <!-- End of Topbar -->
+
+            <!-- Begin Page Content -->
+            <div class="container-fluid">
+
+
+                <div class="card shadow p-4">
+                    @yield('content')
+                </div>
+
+
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- End of Main Content -->
+
+        <!-- Footer -->
+        <footer class="sticky-footer bg-white">
+            <div class="container my-auto">
+                <div class="copyright text-center my-auto">
+                    <span>Copyright &copy; Marketingverse 2023</span>
+                </div>
+            </div>
+        </footer>
+        <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+</div>
+<!-- End of Page Wrapper -->
+
+<!-- Scroll to Top Button-->
+<a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+</a>
+
+<!-- Logout Modal-->
+<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                <a class="btn btn-primary" href="login.html">Logout</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="{{asset('sb-admin-2/js/jquery.min.js')}}"></script>
+<script src="{{asset('sb-admin-2/js/jquery.easing.min.js')}}"></script>
+<!--Bootstrap Js-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+<script src="{{asset('template/assets/js/bootstrap.bundle.min.js')}}"></script>
+
+<!-- Dropzone Js -->
+<script src="{{asset('assets/js/dropzone.min.js')}}"></script>
+<script src="{{asset('assets/js/dropzone-script.js')}}"></script>
+
+<script src="{{asset('vendors/select-flag/js/jquery.flagstrap.min.js')}}"></script>
+
+{{--<script src="https://cdn.ckeditor.com/ckeditor5/38.0.1/classic/ckeditor.js"></script>--}}
+<script src="{{asset('vendors/ckeditor5/ckeditor.js')}}"></script>
+
+<link rel="stylesheet" href="{{asset('vendors/flag-icons/css/flag-icons.min.css')}}">
+<link rel="stylesheet" href="{{asset('vendors/select-flag/css/flags.css')}}">
+<!-- Custom scripts for all pages-->
+<script src="{{asset('sb-admin-2/js/sb-admin-2.min.js')}}"></script>
+
+<script>
+    $(document).ready(function (e) {
+
+         $('#image').change(function(){
+
+          let reader = new FileReader();
+
+          reader.onload = (e) => {
+
+            $('#preview-image-before-upload').attr('src', e.target.result);
+          }
+
+          reader.readAsDataURL(this.files[0]);
+
+         });
+
+        $( '.editor' ).each( function() {
+            ClassicEditor
+                .create( this,{
+                    // Height configuration
+                    config: {
+                        height: "300px",
+                    },
+                    ckfinder: {
+                        uploadUrl: '{{route('admin::ckeditor.upload').'?_token='.csrf_token()}}',
+                    }
+                } )
+                .catch( error => {
+                    console.error( error );
+                } );
+        });
+
+    });
+
+</script>
+@stack('scripts')
+</body>
+</html>

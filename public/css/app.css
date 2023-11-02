@@ -11976,3 +11976,29 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#hall {
+  background: url("../images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -100px;
+}
+@media screen and (min-width: 768px) {
+  #hall {
+    background-position-y: top;
+  }
+}
+#hall main {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+#hall main #stage {
+  text-align: center;
+}
+#hall main #exhibition {
+  padding: 20px;
+}
+#hall main #exhibition figure {
+  text-align: center;
+  padding-bottom: 20px;
+}

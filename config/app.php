@@ -165,6 +165,8 @@ return [
         /*
          * Package Service Providers...
          */
+        Packages\Admin\Providers\AdminServiceProvider::class,
+        Packages\Http\Providers\HttpServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -174,6 +176,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
+
 
     ],
 

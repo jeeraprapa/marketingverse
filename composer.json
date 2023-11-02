@@ -14,10 +14,12 @@
         "laravelcollective/html": "^6.3",
         "league/flysystem-aws-s3-v3": "^1.0",
         "livewire/livewire": "^2.10",
+        "shetabit/visitor": "^4.1",
         "spatie/laravel-medialibrary": "*",
         "spatie/laravel-permission": "^5.5"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.7",
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
         "laravel/sail": "^1.0.1",
@@ -28,6 +30,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
+            "Packages\\": "packages/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }
