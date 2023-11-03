@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Packages\Http\Controllers\HallController;
+use Packages\Http\Controllers\BrandController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +16,4 @@ use Packages\Http\Controllers\HallController;
 */
 
 Route::get('/hall', [HallController::class,'index'])->name('http::hall');
+Route::get('/hall/brand', [BrandController::class,'index'])->name('http::hall.brand');

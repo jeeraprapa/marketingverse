@@ -12002,3 +12002,15 @@ textarea.form-control-lg {
   text-align: center;
   padding-bottom: 20px;
 }
+
+#booth {
+  background: url("../images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -100px;
+}
+@media screen and (min-width: 768px) {
+  #booth {
+    background-position-y: top;
+  }
+}
