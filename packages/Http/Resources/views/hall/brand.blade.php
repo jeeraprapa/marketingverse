@@ -23,9 +23,45 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-    <div class="container-fluid" id="booth">
-        <main class="min-vh-100">
-            <img src="{{asset('images/post.png')}}" alt="post" class="img-fluid">
+    <div class="container-fluid " id="booth">
+        <main class="min-vh-100 position-relative">
+            <div class="position-absolute top-50 start-50 translate-middle">
+                <img src="{{asset('images/post.png')}}" alt="post" class="">
+            </div>
+
+            
+            <div class="block-qrcode">
+                <div class="glass position-absolute z-3">
+                    <img src="{{asset('images/magnifying_glass.png')}}" alt="glass" class="img-fluid" width="30">
+                </div>
+                <div class="qrcode position-absolute z-2">
+                    <img src="{{asset('images/qrcode.png')}}" alt="glass" class="img-fluid" width="70">
+                </div>
+            </div>
+
+            <div class="block-video">
+                <div class="glass position-absolute z-3">
+                    <img src="{{asset('images/magnifying_glass.png')}}" alt="glass" class="img-fluid" width="30">
+                </div>
+            </div>
+
+            <div class="block-poster1">
+                <div class="glass position-absolute z-3">
+                    <img src="{{asset('images/magnifying_glass.png')}}" alt="glass" class="img-fluid" width="30">
+                </div>
+                <div class="poster position-absolute z-2">
+                    <img src="{{asset('images/poster/poster1.png')}}" alt="poster1" class="">
+                </div>
+            </div>
+
+            <div class="block-poster2">
+                <div class="glass position-absolute z-3">
+                    <img src="{{asset('images/magnifying_glass.png')}}" alt="glass" class="img-fluid" width="30">
+                </div>
+                <div class="poster position-absolute z-2">
+                    <img src="{{asset('images/poster/poster2.png')}}" alt="poster2" class="">
+                </div>
+            </div>
         </main>
     </div>
 

@@ -11976,6 +11976,160 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#booth .glass img {
+  filter: drop-shadow(-1px 2px 0 rgba(250, 254, 6, 0.756));
+}
+#booth .block-qrcode .glass {
+  top: 60%;
+  left: 38%;
+}
+@media screen and (min-width: 576px) {
+  #booth .block-qrcode .glass {
+    top: 60%;
+    left: 38%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #booth .block-qrcode .glass {
+    top: 67%;
+    left: 22%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth .block-qrcode .glass {
+    top: 67%;
+    left: 22%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #booth .block-qrcode .qrcode {
+    top: 64%;
+    left: 21%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth .block-qrcode .qrcode {
+    top: 64%;
+    left: 21%;
+  }
+}
+#booth .block-video .glass {
+  top: 60%;
+  left: 38%;
+}
+@media screen and (min-width: 576px) {
+  #booth .block-video .glass {
+    top: 60%;
+    left: 38%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #booth .block-video .glass {
+    top: 47%;
+    left: 43.5%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth .block-video .glass {
+    top: 47%;
+    left: 43.5%;
+  }
+}
+#booth .block-poster1 .glass {
+  top: 53%;
+  right: 56.7%;
+}
+@media screen and (min-width: 576px) {
+  #booth .block-poster1 .glass {
+    top: 53%;
+    right: 56.7%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #booth .block-poster1 .glass {
+    top: 53%;
+    right: 45%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth .block-poster1 .glass {
+    top: 53%;
+    right: 45%;
+  }
+}
+#booth .block-poster1 .poster {
+  top: 53%;
+  left: 56.7%;
+}
+@media screen and (min-width: 576px) {
+  #booth .block-poster1 .poster {
+    top: 53%;
+    left: 56.7%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #booth .block-poster1 .poster {
+    top: 47%;
+    left: 52%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth .block-poster1 .poster {
+    top: 47%;
+    left: 52%;
+  }
+}
+#booth .block-poster1 .poster img {
+  max-width: 73px;
+}
+#booth .block-poster2 .glass {
+  top: 53%;
+  right: 56.7%;
+}
+@media screen and (min-width: 576px) {
+  #booth .block-poster2 .glass {
+    top: 53%;
+    right: 56.7%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #booth .block-poster2 .glass {
+    top: 53%;
+    right: 45%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth .block-poster2 .glass {
+    top: 65%;
+    right: 26%;
+  }
+}
+#booth .block-poster2 .poster {
+  top: 53%;
+  left: 56.7%;
+}
+@media screen and (min-width: 576px) {
+  #booth .block-poster2 .poster {
+    top: 53%;
+    left: 56.7%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #booth .block-poster2 .poster {
+    top: 56%;
+    left: 70%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth .block-poster2 .poster {
+    top: 56%;
+    left: 70%;
+  }
+}
+#booth .block-poster2 .poster img {
+  max-width: 110px;
+}
+
 #hall {
   background: url("../images/bg.png");
   background-size: cover;
