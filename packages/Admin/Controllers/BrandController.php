@@ -102,4 +102,9 @@ class BrandController extends Controller
         return redirect()->route('admin::brand')->with('success',$message);
     }
 
+    public function view (Brand $brand)
+    {
+        return view('admin::brand.view',compact('brand'));
+    }
+
 }

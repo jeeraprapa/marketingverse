@@ -32,6 +32,9 @@
                 <td>{{$brand->name}}</td>
                 <td>{{$brand->description}}</td>
                 <td>
+                    <a href="{{route('admin::brand.view',$brand->id)}}" class="btn btn-secondary">
+                        <i class="fas fa-search"></i>
+                    </a>
                     <a href="{{route('admin::brand.edit',$brand->id)}}" class="btn btn-primary">
                         <i class="fas fa-pen"></i>
                     </a>
