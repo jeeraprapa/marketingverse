@@ -68,18 +68,23 @@ class BrandController extends Controller
         $brand->update($data);
 
         if($request->hasFile('thumbnail')){
+            $brand->clearMediaCollection('thumbnail');
             $brand->addMediaFromRequest('thumbnail')->toMediaCollection('thumbnail');
         }
         if($request->hasFile('booth')){
+            $brand->clearMediaCollection('booth');
             $brand->addMediaFromRequest('booth')->toMediaCollection('booth');
         }
         if($request->hasFile('line_qrcode')){
+            $brand->clearMediaCollection('line_qrcode');
             $brand->addMediaFromRequest('line_qrcode')->toMediaCollection('line_qrcode');
         }
         if($request->hasFile('poster1')){
+            $brand->clearMediaCollection('poster1');
             $brand->addMediaFromRequest('poster1')->toMediaCollection('poster1');
         }
         if($request->hasFile('poster2')) {
+            $brand->clearMediaCollection('poster2');
             $brand->addMediaFromRequest('poster2')
                   ->toMediaCollection('poster2');
         }
