@@ -12003,7 +12003,7 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 768px) {
   #booth .block-qrcode .qrcode {
-    top: 62%;
+    top: 64%;
     left: 21%;
   }
 }
@@ -12047,7 +12047,7 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 768px) {
   #booth .block-poster1 .glass {
-    top: 53%;
+    top: 52%;
     right: 45%;
   }
 }
@@ -12100,7 +12100,7 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 992px) {
   #booth .block-poster2 .glass {
-    top: 60%;
+    top: 61%;
     right: 26%;
   }
 }
@@ -12116,7 +12116,7 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 768px) {
   #booth .block-poster2 .poster {
-    top: 56%;
+    top: 54%;
     left: 70%;
   }
 }
