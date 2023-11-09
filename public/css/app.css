@@ -11997,19 +11997,19 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 992px) {
   #booth .block-qrcode .glass {
-    top: 67%;
+    top: 62%;
     left: 22%;
   }
 }
 @media screen and (min-width: 768px) {
   #booth .block-qrcode .qrcode {
-    top: 64%;
+    top: 62%;
     left: 21%;
   }
 }
 @media screen and (min-width: 992px) {
   #booth .block-qrcode .qrcode {
-    top: 64%;
+    top: 59.7%;
     left: 21%;
   }
 }
@@ -12031,7 +12031,7 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 992px) {
   #booth .block-video .glass {
-    top: 47%;
+    top: 48%;
     left: 43.5%;
   }
 }
@@ -12053,7 +12053,7 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 992px) {
   #booth .block-poster1 .glass {
-    top: 53%;
+    top: 52%;
     right: 45%;
   }
 }
@@ -12075,7 +12075,7 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 992px) {
   #booth .block-poster1 .poster {
-    top: 47%;
+    top: 48%;
     left: 52%;
   }
 }
@@ -12100,7 +12100,7 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 992px) {
   #booth .block-poster2 .glass {
-    top: 65%;
+    top: 60%;
     right: 26%;
   }
 }
@@ -12122,7 +12122,7 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 992px) {
   #booth .block-poster2 .poster {
-    top: 56%;
+    top: 54%;
     left: 70%;
   }
 }
