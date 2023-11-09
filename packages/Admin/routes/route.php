@@ -4,6 +4,7 @@ use Packages\Admin\Controllers\AuthController;
 use Packages\Admin\Controllers\BrandController;
 use Packages\Admin\Controllers\DashboardController;
 use Packages\Admin\Controllers\PosterController;
+use Packages\Admin\Controllers\PhotoController;
 
 Route::group(['prefix' => 'admin', 'middleware' => 'web'], function () {
     Route::get('/', function () {
@@ -39,6 +40,14 @@ Route::group(['prefix' => 'admin', 'middleware' => 'web'], function () {
              ->name('admin::brand.poster.store');
         Route::delete('/brand/{brand}/poster/{poster}/delete', [PosterController::class, 'destroy'])
              ->name('admin::brand.poster.destroy');
+
+        Route::get('/brand/{brand}/photo/create', [PhotoController::class, 'create'])
+             ->name('admin::brand.photo.create');
+        Route::post('/brand/{brand}/photo/store', [PhotoController::class, 'store'])
+             ->name('admin::brand.photo.store');
+        Route::delete('/brand/{brand}/photo/{photo}/delete', [PhotoController::class, 'destroy'])
+             ->name('admin::brand.photo.destroy');
+
 
         Route::post('ckeditor/upload', [ImageUploadController::class, 'storeImage'])->name('admin::ckeditor.upload');
     });

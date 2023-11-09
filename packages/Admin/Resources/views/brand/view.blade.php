@@ -15,6 +15,9 @@
             <a href="{{route('admin::brand.poster.create',$brand->id)}}" class="btn btn-primary">
                 <i class="fas fa-plus"></i>
                 Poster </a>
+            <a href="{{route('admin::brand.photo.create',$brand->id)}}" class="btn btn-primary">
+                <i class="fas fa-plus"></i>
+                Photo </a>
         </div>
     </div>
 
