@@ -21,6 +21,6 @@ class AdminAuthenticated
             return $next($request);
         }
 
-        return redirect()->route('backend::login');
+        return redirect()->route('admin::login');
     }
 }
