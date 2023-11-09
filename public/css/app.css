@@ -11976,303 +11976,183 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#booth .glass img {
-  filter: drop-shadow(-1px 2px 0 rgba(250, 254, 6, 0.756));
-}
-#booth .img-booth {
-  transform: scale(0.3, 0.3);
+#brand {
+  background: url("../images/bg-brand.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -100px;
 }
 @media screen and (min-width: 768px) {
-  #booth .img-booth {
-    transform: scale(1, 1);
+  #brand {
+    background-size: 100% 100%;
+    background-position-y: top;
   }
 }
-#booth .block-qrcode .glass {
+#brand .glass img {
+  filter: drop-shadow(-1px 2px 0 rgba(250, 254, 6, 0.756));
+}
+#brand .block-qrcode .glass {
   top: 53%;
   left: 4%;
 }
 @media screen and (min-width: 576px) {
-  #booth .block-qrcode .glass {
+  #brand .block-qrcode .glass {
     top: 53%;
     left: 4%;
   }
 }
 @media screen and (min-width: 768px) {
-  #booth .block-qrcode .glass {
+  #brand .block-qrcode .glass {
     top: 62.7%;
     left: 13.5%;
   }
 }
 @media screen and (min-width: 992px) {
-  #booth .block-qrcode .glass {
+  #brand .block-qrcode .glass {
     top: 62%;
     left: 22%;
   }
 }
-#booth .block-qrcode .glass img {
-  transform: scale(0.4, 0.4);
-}
-@media screen and (min-width: 576px) {
-  #booth .block-qrcode .glass img {
-    transform: scale(0.4, 0.4);
-  }
-}
 @media screen and (min-width: 768px) {
-  #booth .block-qrcode .glass img {
-    transform: scale(1, 1);
+  #brand .block-qrcode .glass img {
     max-width: 68px;
   }
 }
 @media screen and (min-width: 992px) {
-  #booth .block-qrcode .glass img {
-    transform: scale(1, 1);
+  #brand .block-qrcode .glass img {
     max-width: 78px;
   }
 }
-#booth .block-qrcode .qrcode {
+#brand .block-qrcode .qrcode {
   top: 51.2%;
   right: 85%;
 }
 @media screen and (min-width: 576px) {
-  #booth .block-qrcode .qrcode {
+  #brand .block-qrcode .qrcode {
     top: 51.2%;
     right: 85%;
   }
 }
 @media screen and (min-width: 768px) {
-  #booth .block-qrcode .qrcode {
+  #brand .block-qrcode .qrcode {
     top: 64%;
     left: 21%;
   }
 }
 @media screen and (min-width: 992px) {
-  #booth .block-qrcode .qrcode {
+  #brand .block-qrcode .qrcode {
     top: 59.7%;
     left: 21%;
   }
 }
-#booth .block-qrcode .qrcode img {
-  transform: scale(0.4, 0.4);
-}
-@media screen and (min-width: 576px) {
-  #booth .block-qrcode .qrcode img {
-    transform: scale(0.4, 0.4);
-  }
-}
-@media screen and (min-width: 768px) {
-  #booth .block-qrcode .qrcode img {
-    transform: scale(1, 1);
-  }
-}
-@media screen and (min-width: 992px) {
-  #booth .block-qrcode .qrcode img {
-    transform: scale(1, 1);
-  }
-}
-#booth .block-video .glass {
+#brand .block-video .glass {
   top: 48%;
   left: 37%;
 }
 @media screen and (min-width: 576px) {
-  #booth .block-video .glass {
+  #brand .block-video .glass {
     top: 48%;
     left: 37%;
   }
 }
 @media screen and (min-width: 768px) {
-  #booth .block-video .glass {
+  #brand .block-video .glass {
     top: 47%;
     left: 43.5%;
   }
 }
 @media screen and (min-width: 992px) {
-  #booth .block-video .glass {
+  #brand .block-video .glass {
     top: 48%;
     left: 43.5%;
   }
 }
-#booth .block-video .glass img {
-  transform: scale(0.4, 0.4);
-}
-@media screen and (min-width: 576px) {
-  #booth .block-video .glass img {
-    transform: scale(0.4, 0.4);
-  }
-}
-@media screen and (min-width: 768px) {
-  #booth .block-video .glass img {
-    transform: scale(1, 1);
-  }
-}
-@media screen and (min-width: 992px) {
-  #booth .block-video .glass img {
-    transform: scale(1, 1);
-  }
-}
-#booth .block-poster1 .glass {
+#brand .block-poster1 .glass {
   top: 49%;
   right: 40%;
 }
 @media screen and (min-width: 576px) {
-  #booth .block-poster1 .glass {
+  #brand .block-poster1 .glass {
     top: 49%;
     right: 40%;
   }
 }
 @media screen and (min-width: 768px) {
-  #booth .block-poster1 .glass {
+  #brand .block-poster1 .glass {
     top: 52%;
     right: 45%;
   }
 }
 @media screen and (min-width: 992px) {
-  #booth .block-poster1 .glass {
+  #brand .block-poster1 .glass {
     top: 52%;
     right: 45%;
   }
 }
-#booth .block-poster1 .glass img {
-  transform: scale(0.4, 0.4);
-}
-@media screen and (min-width: 576px) {
-  #booth .block-poster1 .glass img {
-    transform: scale(0.4, 0.4);
-  }
-}
-@media screen and (min-width: 768px) {
-  #booth .block-poster1 .glass img {
-    transform: scale(1, 1);
-  }
-}
-@media screen and (min-width: 992px) {
-  #booth .block-poster1 .glass img {
-    transform: scale(1, 1);
-  }
-}
-#booth .block-poster1 .poster {
+#brand .block-poster1 .poster {
   top: 49%;
   left: 52%;
 }
 @media screen and (min-width: 576px) {
-  #booth .block-poster1 .poster {
+  #brand .block-poster1 .poster {
     top: 49%;
     left: 52%;
   }
 }
 @media screen and (min-width: 768px) {
-  #booth .block-poster1 .poster {
+  #brand .block-poster1 .poster {
     top: 47%;
     left: 52%;
   }
 }
 @media screen and (min-width: 992px) {
-  #booth .block-poster1 .poster {
+  #brand .block-poster1 .poster {
     top: 48%;
     left: 52%;
   }
 }
-#booth .block-poster1 .poster img {
-  transform: scale(1, 1);
-  max-width: 29px;
-}
-@media screen and (min-width: 576px) {
-  #booth .block-poster1 .poster img {
-    transform: scale(1, 1);
-    max-width: 29px;
-  }
-}
-@media screen and (min-width: 768px) {
-  #booth .block-poster1 .poster img {
-    transform: scale(1, 1);
-  }
-}
-@media screen and (min-width: 992px) {
-  #booth .block-poster1 .poster img {
-    transform: scale(1, 1);
-    max-width: 72px;
-  }
-}
-#booth .block-poster2 .glass {
+#brand .block-poster2 .glass {
   top: 52%;
   right: 9%;
 }
 @media screen and (min-width: 576px) {
-  #booth .block-poster2 .glass {
+  #brand .block-poster2 .glass {
     top: 52%;
     right: 9%;
   }
 }
 @media screen and (min-width: 768px) {
-  #booth .block-poster2 .glass {
+  #brand .block-poster2 .glass {
     top: 53%;
     right: 45%;
   }
 }
 @media screen and (min-width: 992px) {
-  #booth .block-poster2 .glass {
+  #brand .block-poster2 .glass {
     top: 61%;
     right: 26%;
   }
 }
-#booth .block-poster2 .glass img {
-  transform: scale(0.4, 0.4);
-}
-@media screen and (min-width: 576px) {
-  #booth .block-poster2 .glass img {
-    transform: scale(0.4, 0.4);
-  }
-}
-@media screen and (min-width: 768px) {
-  #booth .block-poster2 .glass img {
-    transform: scale(1, 1);
-  }
-}
-@media screen and (min-width: 992px) {
-  #booth .block-poster2 .glass img {
-    transform: scale(1, 1);
-  }
-}
-#booth .block-poster2 .poster {
+#brand .block-poster2 .poster {
   top: 50%;
   left: 80%;
 }
 @media screen and (min-width: 576px) {
-  #booth .block-poster2 .poster {
+  #brand .block-poster2 .poster {
     top: 50%;
     left: 80%;
   }
 }
 @media screen and (min-width: 768px) {
-  #booth .block-poster2 .poster {
+  #brand .block-poster2 .poster {
     top: 54%;
     left: 70%;
   }
 }
 @media screen and (min-width: 992px) {
-  #booth .block-poster2 .poster {
+  #brand .block-poster2 .poster {
     top: 54%;
     left: 70%;
-  }
-}
-#booth .block-poster2 .poster img {
-  transform: scale(1, 1);
-  max-width: 45px;
-}
-@media screen and (min-width: 576px) {
-  #booth .block-poster2 .poster img {
-    transform: scale(1, 1);
-    max-width: 45px;
-  }
-}
-@media screen and (min-width: 768px) {
-  #booth .block-poster2 .poster img {
-    transform: scale(1, 1);
-  }
-}
-@media screen and (min-width: 992px) {
-  #booth .block-poster2 .poster img {
-    transform: scale(1, 1);
-    max-width: 110px;
   }
 }
 

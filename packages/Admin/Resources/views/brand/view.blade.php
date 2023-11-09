@@ -15,13 +15,13 @@
             <a href="{{route('admin::brand.poster.create',$brand->id)}}" class="btn btn-primary">
                 <i class="fas fa-plus"></i>
                 Poster </a>
-            <a href="{{route('admin::brand.photo.create',$brand->id)}}" class="btn btn-primary">
+            <a href="{{route('admin::brand.photo.create',$brand->id)}}" class="btn btn-success">
                 <i class="fas fa-plus"></i>
                 Photo </a>
         </div>
     </div>
 
-    <table class="table">
+    <table class="table table-bordered">
         <thead>
         <tr>
             <td>#</td>
@@ -38,6 +38,35 @@
                     </td>
                     <td>
                         <form action="{{route('admin::brand.poster.destroy',['brand'=>$brand->id,'poster'=>$poster->id])}}" method="POST" class="d-inline-block">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this admin?')">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            @endforeach
+        </tbody>
+    </table>
+
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <td>#</td>
+            <td>Photo</td>
+            <td></td>
+        </tr>
+        </thead>
+        <tbody>
+            @foreach($brand->getMedia('photos') as $photo)
+                <tr>
+                    <td>{{$photo->id}}</td>
+                    <td>
+                        <img src="{{$photo->getUrl()}}" alt="{{$brand->name}}" width="100">
+                    </td>
+                    <td>
+                        <form action="{{route('admin::brand.poster.destroy',['brand'=>$brand->id,'poster'=>$photo->id])}}" method="POST" class="d-inline-block">
                             @csrf
                             @method('DELETE')
                             <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this admin?')">

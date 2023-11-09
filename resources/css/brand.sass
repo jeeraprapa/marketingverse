@@ -1,12 +1,15 @@
-#booth
-    .glass 
+#brand
+    background: url("../images/bg-brand.png")
+    background-size: cover
+    background-repeat: no-repeat
+    background-position-y: -100px
+    @include screen('md')
+        background-size: 100% 100%
+        background-position-y: top
+    .glass
         img
             filter: drop-shadow(-1px 2px 0 rgba(250, 254, 6, 0.756))
 
-    .img-booth
-        transform: scale(0.3, 0.3)
-        @include screen('md')
-            transform: scale(1, 1)
 
     .block-qrcode
         .glass
@@ -23,14 +26,9 @@
                 left: 22%
 
             img
-                transform: scale(0.4, 0.4)
-                @include screen('sm')
-                    transform: scale(0.4, 0.4)
                 @include screen('md')
-                    transform: scale(1, 1)
                     max-width: 68px
                 @include screen('lg')
-                    transform: scale(1, 1)
                     max-width: 78px
         .qrcode
             top: 51.2%
@@ -45,14 +43,6 @@
                 top: 59.7%
                 left: 21%
 
-            img
-                transform: scale(0.4, 0.4)
-                @include screen('sm')
-                    transform: scale(0.4, 0.4)
-                @include screen('md')
-                    transform: scale(1, 1)
-                @include screen('lg')
-                    transform: scale(1, 1)
     .block-video
         .glass
             top: 48%
@@ -67,15 +57,6 @@
                 top: 48%
                 left: 43.5%
 
-            img
-                transform: scale(0.4, 0.4)
-                @include screen('sm')
-                    transform: scale(0.4, 0.4)
-                @include screen('md')
-                    transform: scale(1, 1)
-                @include screen('lg')
-                    transform: scale(1, 1)
-    
     .block-poster1
         .glass
             top: 49%
@@ -90,14 +71,6 @@
                 top: 52%
                 right: 45%
 
-            img
-                transform: scale(0.4, 0.4)
-                @include screen('sm')
-                    transform: scale(0.4, 0.4)
-                @include screen('md')
-                    transform: scale(1, 1)
-                @include screen('lg')
-                    transform: scale(1, 1)
 
         .poster
             top: 49%
@@ -112,17 +85,6 @@
                 top: 48%
                 left: 52%
 
-            img
-                transform: scale(1, 1)
-                max-width: 29px
-                @include screen('sm')
-                    transform: scale(1, 1)
-                    max-width: 29px
-                @include screen('md')
-                    transform: scale(1, 1)
-                @include screen('lg')
-                    transform: scale(1, 1)
-                    max-width: 72px
 
     .block-poster2
         .glass
@@ -138,14 +100,6 @@
                 top: 61%
                 right: 26%
 
-            img
-                transform: scale(0.4, 0.4)
-                @include screen('sm')
-                    transform: scale(0.4, 0.4)
-                @include screen('md')
-                    transform: scale(1, 1)
-                @include screen('lg')
-                    transform: scale(1, 1)
 
         .poster
             top: 50%
@@ -160,20 +114,3 @@
                 top: 54%
                 left: 70%
 
-            img
-                transform: scale(1, 1)
-                max-width: 45px
-                @include screen('sm')
-                    transform: scale(1, 1)
-                    max-width: 45px
-                @include screen('md')
-                    transform: scale(1, 1)
-                @include screen('lg')
-                    transform: scale(1, 1)
-                    max-width: 110px
-    // .glass2
-    //     top: 53%
-    //     right: 57%
-    // .glass2
-    //     top: 53%
-    //     right: 57%
