@@ -3,52 +3,86 @@
         img
             filter: drop-shadow(-1px 2px 0 rgba(250, 254, 6, 0.756))
 
+    .img-booth
+        transform: scale(0.3, 0.3)
+        @include screen('md')
+            transform: scale(1, 1)
+
     .block-qrcode
         .glass
-            top: 60%
-            left: 38%
+            top: 53%
+            left: 4%
             @include screen('sm')
-                top: 60%
-                left: 38%
+                top: 53%
+                left: 4%
             @include screen('md')
-                top: 67%
-                left: 22%
+                top: 62.7%
+                left: 13.5%
             @include screen('lg')
                 top: 62%
                 left: 22%
+
+            img
+                transform: scale(0.4, 0.4)
+                @include screen('sm')
+                    transform: scale(0.4, 0.4)
+                @include screen('md')
+                    transform: scale(1, 1)
+                    max-width: 68px
+                @include screen('lg')
+                    transform: scale(1, 1)
+                    max-width: 78px
         .qrcode
-            // top: 59.4%
-            // right: 87.3%
+            top: 51.2%
+            right: 85%
             @include screen('sm')
-                // top: 59.4%
-                // right: 87.3%
+                top: 51.2%
+                right: 85%
             @include screen('md')
                 top: 64%
                 left: 21%
             @include screen('lg')
                 top: 59.7%
                 left: 21%
+
+            img
+                transform: scale(0.4, 0.4)
+                @include screen('sm')
+                    transform: scale(0.4, 0.4)
+                @include screen('md')
+                    transform: scale(1, 1)
+                @include screen('lg')
+                    transform: scale(1, 1)
     .block-video
         .glass
-            top: 60%
-            left: 38%
+            top: 48%
+            left: 37%
             @include screen('sm')
-                top: 60%
-                left: 38%
+                top: 48%
+                left: 37%
             @include screen('md')
                 top: 47%
                 left: 43.5%
             @include screen('lg')
                 top: 48%
                 left: 43.5%
+
+            img
+                transform: scale(0.4, 0.4)
+                @include screen('sm')
+                    transform: scale(0.4, 0.4)
+                @include screen('md')
+                    transform: scale(1, 1)
+                @include screen('lg')
+                    transform: scale(1, 1)
     
     .block-poster1
         .glass
-            top: 53%
-            right: 56.7%
+            top: 49%
+            right: 40%
             @include screen('sm')
-                top: 53%
-                right: 56.7%
+                top: 49%
+                right: 40%
             @include screen('md')
                 top: 52%
                 right: 45%
@@ -56,12 +90,21 @@
                 top: 52%
                 right: 45%
 
+            img
+                transform: scale(0.4, 0.4)
+                @include screen('sm')
+                    transform: scale(0.4, 0.4)
+                @include screen('md')
+                    transform: scale(1, 1)
+                @include screen('lg')
+                    transform: scale(1, 1)
+
         .poster
-            top: 53%
-            left: 56.7%
+            top: 49%
+            left: 52%
             @include screen('sm')
-                top: 53%
-                left: 56.7%
+                top: 49%
+                left: 52%
             @include screen('md')
                 top: 47%
                 left: 52%
@@ -70,15 +113,24 @@
                 left: 52%
 
             img
-                max-width: 73px
+                transform: scale(1, 1)
+                max-width: 29px
+                @include screen('sm')
+                    transform: scale(1, 1)
+                    max-width: 29px
+                @include screen('md')
+                    transform: scale(1, 1)
+                @include screen('lg')
+                    transform: scale(1, 1)
+                    max-width: 72px
 
     .block-poster2
         .glass
-            top: 53%
-            right: 56.7%
+            top: 52%
+            right: 9%
             @include screen('sm')
-                top: 53%
-                right: 56.7%
+                top: 52%
+                right: 9%
             @include screen('md')
                 top: 53%
                 right: 45%
@@ -86,12 +138,21 @@
                 top: 61%
                 right: 26%
 
+            img
+                transform: scale(0.4, 0.4)
+                @include screen('sm')
+                    transform: scale(0.4, 0.4)
+                @include screen('md')
+                    transform: scale(1, 1)
+                @include screen('lg')
+                    transform: scale(1, 1)
+
         .poster
-            top: 53%
-            left: 56.7%
+            top: 50%
+            left: 80%
             @include screen('sm')
-                top: 53%
-                left: 56.7%
+                top: 50%
+                left: 80%
             @include screen('md')
                 top: 54%
                 left: 70%
@@ -100,7 +161,16 @@
                 left: 70%
 
             img
-                max-width: 110px
+                transform: scale(1, 1)
+                max-width: 45px
+                @include screen('sm')
+                    transform: scale(1, 1)
+                    max-width: 45px
+                @include screen('md')
+                    transform: scale(1, 1)
+                @include screen('lg')
+                    transform: scale(1, 1)
+                    max-width: 110px
     // .glass2
     //     top: 53%
     //     right: 57%

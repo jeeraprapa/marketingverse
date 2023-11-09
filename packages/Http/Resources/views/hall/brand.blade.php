@@ -26,7 +26,7 @@
     <div class="container-fluid " id="booth">
         <main class="min-vh-100 position-relative">
             <div class="position-absolute top-50 start-50 translate-middle">
-                <img src="{{asset('images/post.png')}}" alt="post" class="">
+                <img src="{{asset('images/post.png')}}" alt="post" class="img-booth">
             </div>
 
             
