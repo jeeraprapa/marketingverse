@@ -61,7 +61,7 @@
 
             <div class="block-poster">
                 <div class="icon position-absolute z-3">
-                    <img src="{{asset('images/Poster.png')}}" alt="poster" class="icon-block">
+                    <img src="{{asset('images/icon-poster.png')}}" alt="ico-poster" class="icon-block">
                 </div>
             </div>
 
