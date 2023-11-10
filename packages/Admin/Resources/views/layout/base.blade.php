@@ -60,9 +60,6 @@
                     <h4 class="alert-heading">Success!</h4>
                     <p>{{ Session::get('success') }}</p>
 
-                    <button type="button" class="close" data-dismiss="alert aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
                 </div>
             @endif
 
@@ -77,12 +74,9 @@
                     </ul>
                     </p>
 
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
                 </div>
             @endif
-                
+
             <div class="card shadow p-4">
                 @yield('content')
             </div>
