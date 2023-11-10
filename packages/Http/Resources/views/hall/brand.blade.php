@@ -21,6 +21,7 @@
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link href="{{asset('vendors/lightgallery/dist/css/lightgallery.css')}}" rel="stylesheet">
+
 </head>
 <body>
     <div class="container-fluid " id="brand">
@@ -68,7 +69,7 @@
 
             <div class="block-info">
                 <div class="icon position-absolute z-3">
-                    <a href="#info" data-toggle="modal" data-target="#infoModal">
+                    <a href="#infoModal" data-bs-toggle="modal" data-bs-target="#infoModal">
                         <img src="{{asset('images/INFO.png')}}" alt="info" class="icon-block">
                     </a>
                 </div>
@@ -103,36 +104,32 @@
 
     <!-- Modal -->
     <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModal" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Information</h5>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    {!! $brand->description !!}
                 </div>
             </div>
         </div>
     </div>
 
-<!-- Scripts -->
-<script src="{{ asset('js/vendors/jquery-3.6.0.min.js') }}"></script>
-<script src="{{ asset('js/vendors/splide.min.js')}}"></script>
-<script src="{{ asset('js/vendors/splide-extension-url-hash.min.js')}}"></script>
-<script src="{{ mix('js/app.js') }}" defer></script>
-<script src="{{asset('vendors/lightgallery/js/lightgallery.js')}}"></script>
-<script src="{{asset('vendors/lightgallery/js/lg-fullscreen.js')}}"></script>
-<script src="{{asset('vendors/lightgallery/js/lg-zoom.js')}}"></script>
-<script src="{{asset('vendors/lightgallery/js/lg-rotate.js')}}"></script>
-<script src="{{asset('vendors/lightgallery/js/lg-video.js')}}"></script>
-<script>
+    <!-- Scripts -->
+    <script src="{{ asset('js/vendors/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ mix('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/vendors/splide.min.js')}}"></script>
+    <script src="{{ asset('js/vendors/splide-extension-url-hash.min.js')}}"></script>
+    <script src="{{asset('vendors/lightgallery/js/lightgallery.js')}}"></script>
+    <script src="{{asset('vendors/lightgallery/js/lg-fullscreen.js')}}"></script>
+    <script src="{{asset('vendors/lightgallery/js/lg-zoom.js')}}"></script>
+    <script src="{{asset('vendors/lightgallery/js/lg-rotate.js')}}"></script>
+    <script src="{{asset('vendors/lightgallery/js/lg-video.js')}}"></script>
+    <script>
     $(document).ready(function (){
         lightGallery(document.getElementById('gallery'))
         lightGallery(document.getElementById('poster'))
@@ -145,7 +142,6 @@
     function showPoster(){
         $("#poster a:first-child > img").trigger("click");
     }
-
 </script>
 </body>
 </html>
