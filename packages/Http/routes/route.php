@@ -16,4 +16,4 @@ use Packages\Http\Controllers\BrandController;
 */
 
 Route::get('/hall', [HallController::class,'index'])->name('http::hall');
-Route::get('/hall/brand', [BrandController::class,'index'])->name('http::hall.brand');
+Route::get('/hall/{slug}', [BrandController::class,'index'])->name('http::hall.brand');

@@ -8,9 +8,9 @@ use Packages\App\Models\Brand;
 class BrandController extends Controller
 {
 
-    public function index ()
+    public function index ($slug)
     {
-        $brands = Brand::all();
-        return view('http::hall.brand',compact('brands'));
+        $brand = Brand::where('slug',$slug)->first();
+        return view('http::hall.brand',compact('brand'));
     }
 }
