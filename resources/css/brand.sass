@@ -6,111 +6,110 @@
     @include screen('md')
         background-size: 100% 100%
         background-position-y: top
-    .glass
-        img
-            filter: drop-shadow(-1px 2px 0 rgba(250, 254, 6, 0.756))
+    .icon-block
+        width: 19px
+        height: auto
+        @include screen('lg')
+            width: 55px
+            height: auto
 
-
-    .block-qrcode
-        .glass
-            top: 53%
-            left: 4%
+    .block-photo
+        .icon
+            top: 50.5%
+            left: 5.5%
             @include screen('sm')
-                top: 53%
-                left: 4%
+                top: 50.5%
+                left: 5.5%
             @include screen('md')
                 top: 62.7%
                 left: 13.5%
             @include screen('lg')
-                top: 62%
+                top: 54%
+                left: 15%
+            @include screen('xwide')
+                top: 53%
                 left: 22%
 
-            img
-                @include screen('md')
-                    max-width: 68px
-                @include screen('lg')
-                    max-width: 78px
-        .qrcode
-            top: 51.2%
-            right: 85%
-            @include screen('sm')
-                top: 51.2%
-                right: 85%
-            @include screen('md')
-                top: 64%
-                left: 21%
-            @include screen('lg')
-                top: 59.7%
-                left: 21%
-
-    .block-video
-        .glass
+    .block-vdo
+        .icon
             top: 48%
-            left: 37%
+            left: 39.5%
             @include screen('sm')
                 top: 48%
-                left: 37%
+                left: 39.5%
             @include screen('md')
-                top: 47%
+                top: 62.7%
+                left: 13.5%
+            @include screen('lg')
+                top: 45.3%
+                left: 41.8%
+            @include screen('xwide')
+                top: 46.4%
                 left: 43.5%
-            @include screen('lg')
-                top: 48%
-                left: 43.5%
 
-    .block-poster1
-        .glass
-            top: 49%
-            right: 40%
+    .block-brochure
+        .icon
+            top: 49.2%
+            left: 53.2%
             @include screen('sm')
-                top: 49%
-                right: 40%
+                top: 49.2%
+                left: 53.2%
             @include screen('md')
-                top: 52%
-                right: 45%
+                top: 62.7%
+                left: 13.5%
             @include screen('lg')
-                top: 52%
-                right: 45%
+                top: 49.5%
+                left: 52.8%
+            @include screen('xwide')
+                top: 49.5%
+                left: 52.2%
 
-
-        .poster
-            top: 49%
-            left: 52%
+    .block-doc
+        .icon
+            top: 49.2%
+            left: 62.1%
             @include screen('sm')
-                top: 49%
-                left: 52%
+                top: 49.2%
+                left: 62.1%
             @include screen('md')
-                top: 47%
-                left: 52%
+                top: 62.7%
+                left: 13.5%
             @include screen('lg')
-                top: 48%
-                left: 52%
-
-
-    .block-poster2
-        .glass
-            top: 52%
-            right: 9%
+                top: 49.5%
+                left: 59.8%
+            @include screen('xwide')
+                top: 49.5%
+                left: 57.8%
+    .block-info
+        .icon
+            top: 54.5%
+            left: 39%
             @include screen('sm')
-                top: 52%
-                right: 9%
+                top: 54.5%
+                left: 39%
             @include screen('md')
-                top: 53%
-                right: 45%
+                top: 62.7%
+                left: 13.5%
             @include screen('lg')
-                top: 61%
-                right: 26%
+                top: 70%
+                left: 41.6%
+            @include screen('xwide')
+                top: 65.5%
+                left: 43.4%
 
-
-        .poster
-            top: 50%
-            left: 80%
+    .block-poster
+        .icon
+            top: 51.7%
+            left: 85%
             @include screen('sm')
-                top: 50%
-                left: 80%
+                top: 51.7%
+                left: 85%
             @include screen('md')
-                top: 54%
-                left: 70%
+                top: 62.7%
+                left: 13.5%
             @include screen('lg')
-                top: 54%
-                left: 70%
-
+                top: 59.8%
+                left: 77.8%
+            @include screen('xwide')
+                top: 57.4%
+                left: 72.1%
