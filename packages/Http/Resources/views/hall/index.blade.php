@@ -17,7 +17,7 @@
     <meta property="og:type"               content="article" />
     <meta property="og:title"              content="Thailand marketing day 2023" />
     <meta property="og:description"        content="The new marketingverse" />
-    <meta property="og:image"              content="{{asset('images/poster.png')}}" />
+    <meta property="og:image"              content="{{asset('images/main-poster.png')}}" />
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
