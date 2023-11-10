@@ -11991,6 +11991,7 @@ textarea.form-control-lg {
 #brand .icon-block {
   width: 15px;
   height: auto;
+  opacity: 0;
 }
 @media screen and (min-width: 768px) {
   #brand .icon-block {
