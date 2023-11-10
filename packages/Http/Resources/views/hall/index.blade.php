@@ -35,7 +35,7 @@
 
                 <div class="row justify-content-center">
                     @foreach($brands as $item)
-                            <figure class="col-12 col-md-6 col-lg-3">
+                            <figure class="col-12 col-md-6 col-lg-4 col-xxl-3">
                                 <a href="{{route('http::hall.brand',$item->slug )}}">
                                     @if($item->getFirstMediaUrl('thumbnail'))
                                         <img src="{{$item->getFirstMediaUrl('thumbnail')}}" alt="{{$item->name}}" class="img-fluid">
