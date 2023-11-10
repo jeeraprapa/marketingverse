@@ -12,8 +12,8 @@
         {{Form::text('youtube_url',null,['class'=>'form-control'])}}
     </div>
     <div class="col-12 col-md-12 mb-3">
-        {{Form::label('description',null,['class'=>'form-label'])}}
-        {{Form::textarea('description',null,['class'=>'form-control','size'=>'x3'])}}
+        {{Form::label('description','Information',['class'=>'form-label'])}}
+        {{Form::textarea('description',null,['class'=>'form-control editor','size'=>'x3'])}}
     </div>
 
     <div class="col-12 col-md-12 mb-3">
@@ -27,18 +27,13 @@
     </div>
 
     <div class="col-12 col-md-12 mb-3">
-        {{Form::label('line_qrcode',null,['class'=>'form-label'])}}
-        {{Form::file('line_qrcode',['class'=>'form-control'])}}
+        {{Form::label('brochure',null,['class'=>'form-label'])}}
+        {{Form::file('brochure',['class'=>'form-control'])}}
     </div>
 
     <div class="col-12 col-md-12 mb-3">
-        {{Form::label('poster1',null,['class'=>'form-label'])}}
-        {{Form::file('poster1',['class'=>'form-control'])}}
-    </div>
-
-    <div class="col-12 col-md-12 mb-3">
-        {{Form::label('poster2',null,['class'=>'form-label'])}}
-        {{Form::file('poster2',['class'=>'form-control'])}}
+        {{Form::label('document',null,['class'=>'form-label'])}}
+        {{Form::file('document',['class'=>'form-control'])}}
     </div>
 
     <div class="col-12">

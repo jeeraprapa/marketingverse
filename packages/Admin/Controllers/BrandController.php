@@ -36,15 +36,11 @@ class BrandController extends Controller
         if($request->hasFile('booth')){
             $brand->addMediaFromRequest('booth')->toMediaCollection('booth');
         }
-        if($request->hasFile('line_qrcode')){
-            $brand->addMediaFromRequest('line_qrcode')->toMediaCollection('line_qrcode');
+        if($request->hasFile('brochure')){
+            $brand->addMediaFromRequest('brochure')->toMediaCollection('brochure');
         }
-        if($request->hasFile('poster1')){
-            $brand->addMediaFromRequest('poster1')->toMediaCollection('poster1');
-        }
-        if($request->hasFile('poster2')) {
-            $brand->addMediaFromRequest('poster2')
-                  ->toMediaCollection('poster2');
+        if($request->hasFile('document')){
+            $brand->addMediaFromRequest('document')->toMediaCollection('document');
         }
 
         $message = 'Brand created successfully';
@@ -75,18 +71,13 @@ class BrandController extends Controller
             $brand->clearMediaCollection('booth');
             $brand->addMediaFromRequest('booth')->toMediaCollection('booth');
         }
-        if($request->hasFile('line_qrcode')){
-            $brand->clearMediaCollection('line_qrcode');
-            $brand->addMediaFromRequest('line_qrcode')->toMediaCollection('line_qrcode');
+        if($request->hasFile('brochure')){
+            $brand->clearMediaCollection('brochure');
+            $brand->addMediaFromRequest('brochure')->toMediaCollection('brochure');
         }
-        if($request->hasFile('poster1')){
-            $brand->clearMediaCollection('poster1');
-            $brand->addMediaFromRequest('poster1')->toMediaCollection('poster1');
-        }
-        if($request->hasFile('poster2')) {
-            $brand->clearMediaCollection('poster2');
-            $brand->addMediaFromRequest('poster2')
-                  ->toMediaCollection('poster2');
+        if($request->hasFile('document')){
+            $brand->clearMediaCollection('document');
+            $brand->addMediaFromRequest('document')->toMediaCollection('document');
         }
 
         $message = 'Brand updated successfully';
@@ -99,9 +90,8 @@ class BrandController extends Controller
 
         $brand->clearMediaCollection('thumbnail');
         $brand->clearMediaCollection('booth');
-        $brand->clearMediaCollection('line_qrcode');
-        $brand->clearMediaCollection('poster1');
-        $brand->clearMediaCollection('poster2');
+        $brand->clearMediaCollection('brochure');
+        $brand->clearMediaCollection('document');
 
         $message = 'Brand deleted successfully';
         return redirect()->route('admin::brand')->with('success',$message);
