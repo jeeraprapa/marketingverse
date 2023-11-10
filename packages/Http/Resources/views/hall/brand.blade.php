@@ -17,11 +17,16 @@
     <meta property="og:title"              content="Thailand marketing day 2023" />
     <meta property="og:description"        content="The new marketingverse" />
     <meta property="og:image"              content="{{asset('images/main-poster.png')}}" />
-
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Athiti:wght@400;600;700&display=swap">
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link href="{{asset('vendors/lightgallery/dist/css/lightgallery.css')}}" rel="stylesheet">
-
+    <style>
+        .modal-body{
+            font-family: 'Athiti';
+        }
+    </style>
 </head>
 <body>
     <div class="container-fluid " id="brand">

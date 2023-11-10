@@ -16,6 +16,8 @@
             <td>#</td>
             <td>Thumbnail</td>
             <td>Name</td>
+            <td>Brochure</td>
+            <td>Document</td>
             <td></td>
         </tr>
         </thead>
@@ -29,6 +31,23 @@
                     @endif
                 </td>
                 <td>{{$brand->name}}</td>
+                <td>
+                    @if($brand->getFirstMediaUrl('brochure'))
+                    <a href="{{$brand->getFirstMediaUrl('brochure')}}" target="_blank">
+                        <img src="{{asset('images/BROCHURE.png')}}" alt="brochure" class="icon-block">
+                    </a>
+                    @endif
+                </td>
+                <td>
+                    @if($brand->getFirstMediaUrl('document'))
+                    <a href="{{$brand->getFirstMediaUrl('document')}}" target="_blank">
+                        <img src="{{asset('images/DOC.png')}}"
+                             alt="doc"
+                             class="icon-block"
+                        >
+                    </a>
+                    @endif
+                </td>
                 <td>
                     <a href="{{route('admin::brand.view',$brand->id)}}" class="btn btn-secondary">
                         <i class="fas fa-search"></i>
@@ -48,7 +67,7 @@
         @endforeach
         <tbody>
         <tr>
-            <td colspan="4">
+            <td colspan="6">
                 {{$brands->links()}}
             </td>
         </tr>

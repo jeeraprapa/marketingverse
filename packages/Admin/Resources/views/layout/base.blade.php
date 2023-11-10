@@ -52,17 +52,44 @@
         @include('admin::layout.header')
         <!-- End of Topbar -->
 
-            <!-- Begin Page Content -->
-            <div class="container-fluid">
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
 
+            @if (Session::has('success'))
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <h4 class="alert-heading">Success!</h4>
+                    <p>{{ Session::get('success') }}</p>
 
-                <div class="card shadow p-4">
-                    @yield('content')
+                    <button type="button" class="close" data-dismiss="alert aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
+            @endif
 
+            @if (Session::has('errors'))
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <h4 class="alert-heading">Error!</h4>
+                    <p>
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                    </p>
 
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            @endif
+                
+            <div class="card shadow p-4">
+                @yield('content')
             </div>
-            <!-- /.container-fluid -->
+
+
+        </div>
+        <!-- /.container-fluid -->
 
         </div>
         <!-- End of Main Content -->
