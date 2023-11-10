@@ -50,7 +50,7 @@
             <div class="block-brochure">
                 <div class="icon position-absolute z-3">
                     <a href="#brochure" id="brochure">
-                        <img src="{{asset('images/BROCHURE.png')}}" alt="brochure" class="icon-block" data-src="{{$brand->getFirstMediaUrl('brochure')}}>
+                        <img src="{{asset('images/BROCHURE.png')}}" alt="brochure" class="icon-block" data-src="{{$brand->getFirstMediaUrl('brochure')}}">
                     </a>
                 </div>
             </div>
