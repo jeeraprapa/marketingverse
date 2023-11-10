@@ -23,7 +23,7 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link href="{{asset('vendors/lightgallery/dist/css/lightgallery.css')}}" rel="stylesheet">
     <style>
-        .modal{
+        .modal-body{
             font-family: 'Roboto';
         }
     </style>
