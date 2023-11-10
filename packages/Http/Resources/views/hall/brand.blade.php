@@ -26,42 +26,45 @@
     <div class="container-fluid " id="brand">
         <main class="min-vh-100 position-relative">
             <div class="position-absolute min-vw-100 top-50 start-50 translate-middle text-center">
-                <img src="{{asset('images/post.png')}}" alt="post" class="img-fluid">
+                <img src="{{asset('images/exhibition-cp.png')}}" alt="post" class="img-fluid">
             </div>
 
-
-            <div class="block-qrcode">
-                <div class="glass position-absolute z-3">
-                    <img src="{{asset('images/magnifying_glass.png')}}" alt="glass" class="img-fluid" width="30">
+            <div class="block-photo">
+                <div class="icon position-absolute z-3">
+                    <img src="{{asset('images/PHOTO.png')}}" alt="photo" class="icon-block">
                 </div>
-{{--                <div class="qrcode position-absolute z-2">--}}
-{{--                    <img src="{{asset('images/qrcode.png')}}" alt="glass" class="img-fluid" width="70">--}}
-{{--                </div>--}}
             </div>
 
-{{--            <div class="block-video">--}}
-{{--                <div class="glass position-absolute z-3">--}}
-{{--                    <img src="{{asset('images/magnifying_glass.png')}}" alt="glass" class="img-fluid" width="30">--}}
-{{--                </div>--}}
-{{--            </div>--}}
+            <div class="block-vdo">
+                <div class="icon position-absolute z-3">
+                    <img src="{{asset('images/VDO.png')}}" alt="vdo" class="icon-block">
+                </div>
+            </div>
+            
+            <div class="block-brochure">
+                <div class="icon position-absolute z-3">
+                    <img src="{{asset('images/BROCHURE.png')}}" alt="brochure" class="icon-block">
+                </div>
+            </div>
 
-{{--            <div class="block-poster1">--}}
-{{--                <div class="glass position-absolute z-3">--}}
-{{--                    <img src="{{asset('images/magnifying_glass.png')}}" alt="glass" class="img-fluid" width="30">--}}
-{{--                </div>--}}
-{{--                <div class="poster position-absolute z-2">--}}
-{{--                    <img src="{{asset('images/poster/poster1.png')}}" alt="poster1" class="">--}}
-{{--                </div>--}}
-{{--            </div>--}}
+            <div class="block-doc">
+                <div class="icon position-absolute z-3">
+                    <img src="{{asset('images/DOC.png')}}" alt="doc" class="icon-block">
+                </div>
+            </div>
 
-{{--            <div class="block-poster2">--}}
-{{--                <div class="glass position-absolute z-3">--}}
-{{--                    <img src="{{asset('images/magnifying_glass.png')}}" alt="glass" class="img-fluid" width="30">--}}
-{{--                </div>--}}
-{{--                <div class="poster position-absolute z-2">--}}
-{{--                    <img src="{{asset('images/poster/poster2.png')}}" alt="poster2" class="">--}}
-{{--                </div>--}}
-{{--            </div>--}}
+            <div class="block-info">
+                <div class="icon position-absolute z-3">
+                    <img src="{{asset('images/INFO.png')}}" alt="info" class="icon-block">
+                </div>
+            </div>
+
+            <div class="block-poster">
+                <div class="icon position-absolute z-3">
+                    <img src="{{asset('images/Poster.png')}}" alt="poster" class="icon-block">
+                </div>
+            </div>
+
         </main>
     </div>
 
