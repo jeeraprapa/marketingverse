@@ -49,19 +49,18 @@
 
             <div class="block-brochure">
                 <div class="icon position-absolute z-3">
-                    <a href="#brochure" id="brochure">
-                        <img src="{{asset('images/BROCHURE.png')}}" alt="brochure" class="icon-block" data-src="{{$brand->getFirstMediaUrl('brochure')}}">
+                    <a href="{{$brand->getFirstMediaUrl('brochure')}}" target="_blank">
+                        <img src="{{asset('images/BROCHURE.png')}}" alt="brochure" class="icon-block">
                     </a>
                 </div>
             </div>
 
             <div class="block-doc">
                 <div class="icon position-absolute z-3">
-                    <a href="#document" id="document">
+                    <a href="{{$brand->getFirstMediaUrl('document')}}" target="_blank">
                         <img src="{{asset('images/DOC.png')}}"
                              alt="doc"
                              class="icon-block"
-                             data-src="{{$brand->getFirstMediaUrl('document')}}"
                         >
                     </a>
                 </div>
@@ -69,7 +68,7 @@
 
             <div class="block-info">
                 <div class="icon position-absolute z-3">
-                    <a href="#info" id="info">
+                    <a href="#info" data-toggle="modal" data-target="#infoModal">
                         <img src="{{asset('images/INFO.png')}}" alt="info" class="icon-block">
                     </a>
                 </div>
@@ -102,13 +101,32 @@
         </div>
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 <!-- Scripts -->
 <script src="{{ asset('js/vendors/jquery-3.6.0.min.js') }}"></script>
-<script src="{{ mix('js/app.js') }}" defer></script>
 <script src="{{ asset('js/vendors/splide.min.js')}}"></script>
 <script src="{{ asset('js/vendors/splide-extension-url-hash.min.js')}}"></script>
 <script src="{{ mix('js/app.js') }}" defer></script>
-<script src="{{asset('vendors/lightgallery/js/lightgallery.js')}}"></script>
 <script src="{{asset('vendors/lightgallery/js/lightgallery.js')}}"></script>
 <script src="{{asset('vendors/lightgallery/js/lg-fullscreen.js')}}"></script>
 <script src="{{asset('vendors/lightgallery/js/lg-zoom.js')}}"></script>
@@ -120,9 +138,6 @@
         lightGallery(document.getElementById('poster'))
         lightGallery(document.getElementById('photo'));
         lightGallery(document.getElementById('video'));
-        lightGallery(document.getElementById('document'));
-        lightGallery(document.getElementById('brochure'));
-        lightGallery(document.getElementById('info'));
     });
     function showGallery(){
         $("#gallery a:first-child > img").trigger("click");
