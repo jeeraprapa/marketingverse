@@ -32,7 +32,7 @@
                 </td>
                 <td>{{$brand->name}}</td>
                 <td>
-                    @if($brand->getFirstMediaUrl('document'))
+                    @if($brand->getFirstMediaUrl('brochure'))
                     <a href="{{$brand->getFirstMediaUrl('brochure')}}" target="_blank">
                         <img src="{{asset('images/BROCHURE.png')}}" alt="brochure" class="icon-block">
                     </a>
