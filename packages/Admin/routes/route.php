@@ -5,11 +5,13 @@ use Packages\Admin\Controllers\BrandController;
 use Packages\Admin\Controllers\DashboardController;
 use Packages\Admin\Controllers\PosterController;
 use Packages\Admin\Controllers\PhotoController;
+use Rap2hpoutre\LaravelLogViewer\LogViewerController;
 
 Route::group(['prefix' => 'admin', 'middleware' => 'web'], function () {
     Route::get('/', function () {
         return redirect()->route('admin::login');
     });
+    Route::get('logs', [LogViewerController::class, 'index']);
     Route::get('/login', [AuthController::class, 'index'])
          ->name('admin::login');
     Route::post('/login', [AuthController::class, 'login'])
