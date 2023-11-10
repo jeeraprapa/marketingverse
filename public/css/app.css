@@ -12205,3 +12205,7 @@ textarea.form-control-lg {
     background-position-y: top;
   }
 }
+
+.modal-body img {
+  max-width: 100% !important;
+}

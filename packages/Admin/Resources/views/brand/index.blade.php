@@ -16,7 +16,6 @@
             <td>#</td>
             <td>Thumbnail</td>
             <td>Name</td>
-            <td>Description</td>
             <td></td>
         </tr>
         </thead>
@@ -30,7 +29,6 @@
                     @endif
                 </td>
                 <td>{{$brand->name}}</td>
-                <td>{{$brand->description}}</td>
                 <td>
                     <a href="{{route('admin::brand.view',$brand->id)}}" class="btn btn-secondary">
                         <i class="fas fa-search"></i>
@@ -50,7 +48,7 @@
         @endforeach
         <tbody>
         <tr>
-            <td colspan="5">
+            <td colspan="4">
                 {{$brands->links()}}
             </td>
         </tr>
