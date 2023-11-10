@@ -11,13 +11,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{{--    <!-- CSRF Token -->--}}
-{{--    <meta name="csrf-token" content="{{ csrf_token() }}">--}}
-{{--    <meta property="og:url"                content="http:{{request()->url()}}" />--}}
-{{--    <meta property="og:type"               content="article" />--}}
-{{--    <meta property="og:title"              content="นิทรรศการประชุมวิชาการวัคซีนแห่งชาติ ครั้งที่ 10" />--}}
-{{--    <meta property="og:description"        content="The 10 th National Vaccine Conference Virtual Exhibition" />--}}
-{{--    <meta property="og:image"              content="{{asset('images/logo2.png')}}" />--}}
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta property="og:url"                content="http:{{request()->url()}}" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="Thailand marketing day 2023" />
+    <meta property="og:description"        content="The new marketingverse" />
+    <meta property="og:image"              content="{{asset('images/poster.png')}}" />
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
@@ -25,23 +25,25 @@
 <body>
     <div class="container-fluid" id="hall">
         <main class="min-vh-100">
-            <figure id="stage">
-                <img src="{{asset('images/stage.png')}}" alt="stage" class="img-fluid">
-            </figure>
+            <a href="https://poplive.co/e/ThailandMarketingday2023" target="_blank">
+                <figure id="stage">
+                    <img src="{{asset('images/stage.png')}}" alt="stage" class="img-fluid">
+                </figure>
+            </a>
+
             <section id="exhibition">
 
                 <div class="row justify-content-center">
-                    @foreach($brands->shift(3) as $item)
-                        <figure class="col-12 col-md-6 col-lg-3">
-                            <img src="{{asset('images/scg.png')}}" alt="scg" class="img-fluid">
-                        </figure>
-                    @endforeach
-                </div>
-                <div class="row justify-content-center">
-                    @foreach($brands->shift(4) as $item)
-                        <figure class="col-12 col-md-6 col-lg-3">
-                            <img src="{{asset('images/scg.png')}}" alt="scg" class="img-fluid">
-                        </figure>
+                    @foreach($brands as $item)
+                            <figure class="col-12 col-md-6 col-lg-3">
+                                <a href="{{route('http::hall.brand',$item->slug )}}">
+                                    @if($item->getFirstMediaUrl('thumbnail'))
+                                        <img src="{{$item->getFirstMediaUrl('thumbnail')}}" alt="{{$item->name}}" class="img-fluid">
+                                    @else
+                                        <img src="{{asset('images/booth.png')}}" alt="booth" class="img-fluid">
+                                    @endif
+                                </a>
+                            </figure>
                     @endforeach
                 </div>
 
