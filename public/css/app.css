@@ -11989,8 +11989,14 @@ textarea.form-control-lg {
   }
 }
 #brand .icon-block {
-  width: 19px;
+  width: 15px;
   height: auto;
+}
+@media screen and (min-width: 768px) {
+  #brand .icon-block {
+    width: 35px;
+    height: auto;
+  }
 }
 @media screen and (min-width: 992px) {
   #brand .icon-block {
@@ -11998,8 +12004,20 @@ textarea.form-control-lg {
     height: auto;
   }
 }
+@media screen and (min-width: 1024px) {
+  #brand .icon-block {
+    width: 45px;
+    height: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #brand .icon-block {
+    width: 55px;
+    height: auto;
+  }
+}
 #brand .block-photo .icon {
-  top: 50.5%;
+  top: 50%;
   left: 5.5%;
 }
 @media screen and (min-width: 576px) {
@@ -12010,8 +12028,8 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 768px) {
   #brand .block-photo .icon {
-    top: 62.7%;
-    left: 13.5%;
+    top: 51.7%;
+    left: 7.3%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -12020,14 +12038,32 @@ textarea.form-control-lg {
     left: 15%;
   }
 }
+@media screen and (min-width: 1024px) {
+  #brand .block-photo .icon {
+    top: 52.7%;
+    left: 7.7%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #brand .block-photo .icon {
+    top: 53.1%;
+    left: 12.7%;
+  }
+}
 @media screen and (min-width: 1600px) {
   #brand .block-photo .icon {
     top: 53%;
     left: 22%;
   }
 }
+@media screen and (min-width: 2000px) {
+  #brand .block-photo .icon {
+    top: 52.3%;
+    left: 29.2%;
+  }
+}
 #brand .block-vdo .icon {
-  top: 48%;
+  top: 48.3%;
   left: 39.5%;
 }
 @media screen and (min-width: 576px) {
@@ -12038,8 +12074,8 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 768px) {
   #brand .block-vdo .icon {
-    top: 62.7%;
-    left: 13.5%;
+    top: 47.3%;
+    left: 40%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -12048,15 +12084,33 @@ textarea.form-control-lg {
     left: 41.8%;
   }
 }
+@media screen and (min-width: 1024px) {
+  #brand .block-vdo .icon {
+    top: 46.7%;
+    left: 40%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #brand .block-vdo .icon {
+    top: 46%;
+    left: 41.3%;
+  }
+}
 @media screen and (min-width: 1600px) {
   #brand .block-vdo .icon {
     top: 46.4%;
     left: 43.5%;
   }
 }
+@media screen and (min-width: 2000px) {
+  #brand .block-vdo .icon {
+    top: 47.3%;
+    left: 45.2%;
+  }
+}
 #brand .block-brochure .icon {
-  top: 49.2%;
-  left: 53.2%;
+  top: 49%;
+  left: 53.5%;
 }
 @media screen and (min-width: 576px) {
   #brand .block-brochure .icon {
@@ -12066,8 +12120,8 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 768px) {
   #brand .block-brochure .icon {
-    top: 62.7%;
-    left: 13.5%;
+    top: 49.6%;
+    left: 53.4%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -12076,15 +12130,33 @@ textarea.form-control-lg {
     left: 52.8%;
   }
 }
+@media screen and (min-width: 1024px) {
+  #brand .block-brochure .icon {
+    top: 49.7%;
+    left: 53.5%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #brand .block-brochure .icon {
+    top: 49.7%;
+    left: 53%;
+  }
+}
 @media screen and (min-width: 1600px) {
   #brand .block-brochure .icon {
     top: 49.5%;
     left: 52.2%;
   }
 }
+@media screen and (min-width: 2000px) {
+  #brand .block-brochure .icon {
+    top: 49.8%;
+    left: 51.7%;
+  }
+}
 #brand .block-doc .icon {
-  top: 49.2%;
-  left: 62.1%;
+  top: 49%;
+  left: 62.5%;
 }
 @media screen and (min-width: 576px) {
   #brand .block-doc .icon {
@@ -12094,8 +12166,8 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 768px) {
   #brand .block-doc .icon {
-    top: 62.7%;
-    left: 13.5%;
+    top: 49.6%;
+    left: 61.8%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -12104,15 +12176,33 @@ textarea.form-control-lg {
     left: 59.8%;
   }
 }
+@media screen and (min-width: 1024px) {
+  #brand .block-doc .icon {
+    top: 49.7%;
+    left: 62%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #brand .block-doc .icon {
+    top: 49.7%;
+    left: 60.5%;
+  }
+}
 @media screen and (min-width: 1600px) {
   #brand .block-doc .icon {
     top: 49.5%;
     left: 57.8%;
   }
 }
+@media screen and (min-width: 2000px) {
+  #brand .block-doc .icon {
+    top: 49.8%;
+    left: 56%;
+  }
+}
 #brand .block-info .icon {
-  top: 54.5%;
-  left: 39%;
+  top: 53.4%;
+  left: 39.1%;
 }
 @media screen and (min-width: 576px) {
   #brand .block-info .icon {
@@ -12122,8 +12212,8 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 768px) {
   #brand .block-info .icon {
-    top: 62.7%;
-    left: 13.5%;
+    top: 60.7%;
+    left: 39.5%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -12132,15 +12222,33 @@ textarea.form-control-lg {
     left: 41.6%;
   }
 }
+@media screen and (min-width: 1024px) {
+  #brand .block-info .icon {
+    top: 64%;
+    left: 40%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #brand .block-info .icon {
+    top: 67.5%;
+    left: 41%;
+  }
+}
 @media screen and (min-width: 1600px) {
   #brand .block-info .icon {
     top: 65.5%;
     left: 43.4%;
   }
 }
+@media screen and (min-width: 2000px) {
+  #brand .block-info .icon {
+    top: 62.3%;
+    left: 45%;
+  }
+}
 #brand .block-poster .icon {
-  top: 51.7%;
-  left: 85%;
+  top: 51.2%;
+  left: 85.6%;
 }
 @media screen and (min-width: 576px) {
   #brand .block-poster .icon {
@@ -12150,8 +12258,8 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 768px) {
   #brand .block-poster .icon {
-    top: 62.7%;
-    left: 13.5%;
+    top: 54.8%;
+    left: 83.7%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -12160,10 +12268,28 @@ textarea.form-control-lg {
     left: 77.8%;
   }
 }
+@media screen and (min-width: 1024px) {
+  #brand .block-poster .icon {
+    top: 56.7%;
+    left: 83.6%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #brand .block-poster .icon {
+    top: 58.4%;
+    left: 79.7%;
+  }
+}
 @media screen and (min-width: 1600px) {
   #brand .block-poster .icon {
     top: 57.4%;
     left: 72.1%;
+  }
+}
+@media screen and (min-width: 2000px) {
+  #brand .block-poster .icon {
+    top: 55.8%;
+    left: 66.6%;
   }
 }
 
