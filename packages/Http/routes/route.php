@@ -15,5 +15,9 @@ use Packages\Http\Controllers\BrandController;
 |
 */
 
+Route::get('/', function (){
+    return redirect()->to(asset('360/index.html'));
+});
+
 Route::get('/hall', [HallController::class,'index'])->name('http::hall');
 Route::get('/hall/{slug}', [BrandController::class,'index'])->name('http::hall.brand');

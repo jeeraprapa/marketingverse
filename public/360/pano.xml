@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.1.14" start="node2" apprev="18105">
+  <panorama id="node2" hideabout="1">
+    <input levelbias="0.400" leveltilesize="510" overlap="1" width="4096" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" height="4096">
+      <level width="4096" predecode="0" preload="0" height="4096"/>
+      <level width="2048" predecode="0" preload="0" height="2048"/>
+      <level width="1024" predecode="0" preload="0" height="1024"/>
+      <level width="512" predecode="0" preload="0" height="512"/>
+      <level width="256" predecode="1" preload="1" height="256"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" pan="-91.68" tilt="-8" fov="54"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="-155" tilt="-10" fov="35.67"/>
+      <max pan="-32" tilt="39" fov="75" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata copyright="" longitude="" title="" latitude="" nodeid="node2" source="" info="" description="" comment="" customnodeid="" author="" datetime="" tags="Pano2VR99" heading="0"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" background="1" wordwrap="1" textalpha="1" bordercolor="0x000000" borderradius="1" width="180" borderalpha="1" textcolor="0x000000" border="1" backgroundalpha="1" height="20" backgroundcolor="0xffffff"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot target="-88.8/-8.0/54.0" customimagewidth="907" customimageheight="337" use3D="1" pan="-89.74" tilt="-3.31" distance3D="6272.92" title="" id="Point02" url="{node1}" fov="8.27" skinid="ht_node" description="" customimage="media/buttom Entance.png"/>
+      <polyhotspot target="-88.8/-8.0/54.0" title="" id="Poly01" url="{node1}" description="">
+        <polystring>-85.32/-1.31|-94.59/-1.11|-94.32/-5.54|-85.44/-5.58|-85.03/-5.64</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <image pan="-90.930" rotx="21.000" tilt="25.780" id="Element01" rotz="0.000" width="4267" clickmode="1" stretch="1.000" fov="40.240" handcursor="0" height="1578" roty="-2.000">
+        <source url="media/Artboard 2@2x.png"/>
+      </image>
+      <image pan="-89.860" rotx="0.000" tilt="6.550" id="Element02" rotz="0.000" width="6344" clickmode="0" stretch="1.000" fov="24.960" handcursor="0" height="3480" roty="0.000">
+        <source url="media/gate@3x.png"/>
+      </image>
+      <sound nodechangekeep="0" loop="5" level="0.300" field="90.000" ambientlevel="0.000" pan="-1.000" tilt="-1.000" id="_background" startmutedmobile="0" pansize="10.000" mode="0" tiltsize="10.000">
+        <source url="media/Vice-City-feat.-My-City-Glory.mp3"/>
+      </sound>
+    </media>
+    <transition enabled="0" softedge="0" blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomafterinfov="90" zoomin="0" zoomfov="20" zoomoutpause="1" zoomout="0"/>
+    <autorotate enabled="1" delay="5.00" nodefilter="" startloaded="0" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.010" noderandom="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control speedwheel="1" simulatemass="1" dblclickfullscreen="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" contextvr="0" hideabout="1" lockedwheel="0" invertwheel="0" contextprojections="0" rubberband="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node1" hideabout="1">
+    <input levelbias="0.400" leveltilesize="510" overlap="1" width="2048" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" height="2048">
+      <level width="2048" predecode="0" preload="0" height="2048"/>
+      <level width="1024" predecode="0" preload="0" height="1024"/>
+      <level width="512" predecode="0" preload="0" height="512"/>
+      <level width="256" predecode="1" preload="1" height="256"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" pan="-88.77" tilt="-12.9" fov="76.67"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="-155" tilt="-35" fov="35.67"/>
+      <max pan="-32" tilt="19" fov="55" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata copyright="" longitude="" title="" latitude="" nodeid="node1" source="" info="" description="" comment="" customnodeid="" author="" datetime="" tags="New folder (2)" heading="0"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label enabled="1" background="1" wordwrap="1" textalpha="1" bordercolor="0x000000" borderradius="1" width="180" borderalpha="1" textcolor="0x000000" border="1" backgroundalpha="1" height="20" backgroundcolor="0xffffff"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot target="_parent" customimagewidth="907" customimageheight="337" use3D="1" pan="-53.33" tilt="-15.5" distance3D="6265.31" title="Hall " id="Point01" url="https://www.worldmarketingforum3.com/hall" fov="8.279999999999999" skinid="ht_url" description="" customimage="media/buttom Entance.png"/>
+      <hotspot target="_top" customimagewidth="907" customimageheight="337" use3D="1" pan="-122.43" tilt="-15.73" distance3D="6660.74" title="" id="Point03" url="https://poplive.co/e/ThailandMarketingday2023" fov="7.79" skinid="ht_url" description="" customimage="media/buttom Entance.png"/>
+      <hotspot target="_blank" customimagewidth="27" customimageheight="27" use3D="0" pan="-79.03" tilt="-17.75" distance3D="154.306" title="" id="Point02" url="https://drive.google.com/open?id=1eVhdeBecAnbhf6jNeEdl6qWd5wJ0IU30&amp;usp=drive_fs" fov="10" skinid="ht_url" description="" customimage="media/Search_for.svg"/>
+      <hotspot target="_blank" customimagewidth="34" customimageheight="34" use3D="0" pan="-73.39" tilt="-26.28" distance3D="194.311" title="" id="Point04" url="https://drive.google.com/open?id=1eVsOM5fKt8Wdc1BHlSMl9EQBBeqFRT4Q&amp;usp=drive_fs" fov="10" skinid="ht_url" description="" customimage="media/Search_for.svg"/>
+      <hotspot target="_blank" customimagewidth="28" customimageheight="28" use3D="0" pan="-103.13" tilt="-17.84" distance3D="160.021" title="" id="Point02" url="https://drive.google.com/open?id=1eV__-57FXzZrDpDrs1rxW7GFstuTPFPc&amp;usp=drive_fs" fov="10" skinid="ht_url" description="" customimage="media/Search_for.svg"/>
+    </hotspots>
+    <media>
+      <image pan="-53.260" rotx="0.000" tilt="-8.230" id="Element01" rotz="-2.000" width="1891" clickmode="0" stretch="1.000" fov="16.614" handcursor="0" height="621" roty="0.000">
+        <source url="media/Asset 1@3x.png"/>
+      </image>
+      <image pan="-123.030" rotx="1.000" tilt="-8.110" id="Element02" rotz="1.000" width="1858" clickmode="0" stretch="1.000" fov="16.299" handcursor="0" height="615" roty="12.000">
+        <source url="media/Asset 2@3x.png"/>
+      </image>
+      <image pan="-88.550" rotx="0.000" tilt="-1.410" id="Element03" rotz="0.000" width="9010" clickmode="0" stretch="1.000" fov="47.165" handcursor="0" height="3418" roty="0.000">
+        <source url="media/BD (1).png"/>
+      </image>
+      <image pan="-77.490" rotx="-7.000" tilt="-19.860" id="Element05" rotz="0.000" width="198" clickmode="0" stretch="1.000" fov="1.890" handcursor="0" height="355" roty="0.000">
+        <source url="media/Asset 3@3x.png"/>
+      </image>
+      <image pan="-101.160" rotx="-7.000" tilt="-19.770" id="Element05" rotz="0.000" width="198" clickmode="0" stretch="1.000" fov="1.890" handcursor="0" height="355" roty="0.000">
+        <source url="media/Asset 4@3x.png"/>
+      </image>
+      <image pan="-70.950" rotx="0.000" tilt="-27.580" id="Element06" rotz="-15.000" width="1362" clickmode="0" stretch="1.000" fov="3.543" handcursor="0" height="484" roty="0.000">
+        <source url="media/kios.png"/>
+      </image>
+      <video tilt="1.170" handcursor="0" id="Element04" stretch="1.000" clickmode="2" startmutedmobile="1" tiltsize="10.000" height="1080" loop="5" level="0.000" rotx="-1.000" rotz="-1.000" mode="3" roty="0.000" field="90.000" ambientlevel="0.000" pan="-52.970" pansize="10.000" width="1920" fov="20.240" nodechangekeep="0">
+        <source url="media/MAT Video.mp4"/>
+      </video>
+      <video tilt="1.090" handcursor="0" id="Element04" stretch="1.000" clickmode="2" startmutedmobile="1" tiltsize="10.000" height="1080" loop="5" level="0.000" rotx="-1.000" rotz="0.000" mode="3" roty="0.000" field="90.000" ambientlevel="0.000" pan="-124.080" pansize="10.000" width="1920" fov="20.240" nodechangekeep="0">
+        <source url="media/MAT Video.mp4"/>
+      </video>
+      <sound nodechangekeep="0" loop="5" level="0.300" field="90.000" ambientlevel="0.000" pan="-1.000" tilt="-1.000" id="_background" startmutedmobile="0" pansize="10.000" mode="0" tiltsize="10.000">
+        <source url="media/Vice-City-feat.-My-City-Glory.mp3"/>
+      </sound>
+    </media>
+    <transition enabled="0" softedge="0" blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomafterinfov="90" zoomin="0" zoomfov="20" zoomoutpause="1" zoomout="0"/>
+    <autorotate enabled="1" delay="5.00" nodefilter="" startloaded="0" nodedelay="0.00" returntohorizon="0.000" useanimation="0" speed="0.010" noderandom="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control speedwheel="1" simulatemass="1" dblclickfullscreen="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" contextvr="0" hideabout="1" lockedwheel="0" invertwheel="0" contextprojections="0" rubberband="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0"/>
+  </panorama>
+  <masternode>
+    <userdata copyright="" longitude="" title="" latitude="" nodeid="master" source="" info="" description="" comment="" customnodeid="" author="" datetime="" tags="" heading="0"/>
+  </masternode>
+</tour>
