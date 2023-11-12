@@ -18,7 +18,12 @@ class PhotoController extends Controller
         if($request->hasFile('photo')){
             $brand->addMediaFromRequest('photo')->toMediaCollection('photos');
         }
-
+        $request->validate([
+            'poster'        => 'nullable|max:2048',
+        ],
+        [
+            'poster.max' => 'The poster may not be greater than 2 MB.',
+        ]);
         $message = 'Photo created successfully';
 
         return redirect()->route('admin::brand.view',$brand)->with('success',$message);

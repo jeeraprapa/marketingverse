@@ -11,7 +11,12 @@ class ImageUploadController extends Controller
     public function storeImage(Request $request)
     {
         if ($request->hasFile('upload')) {
-            $originName = $request->file('upload')->getClientOriginalName();
+            $request->validate([
+                'upload'        => 'max:2048',
+            ],
+            [
+                'poster.max' => 'The poster may not be greater than 2 MB.',
+            ]);            $originName = $request->file('upload')->getClientOriginalName();
             $fileName = pathinfo($originName, PATHINFO_FILENAME);
             $extension = $request->file('upload')->getClientOriginalExtension();
             $fileName = $fileName . '_' . time() . '.' . $extension;

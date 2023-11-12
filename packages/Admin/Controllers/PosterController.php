@@ -16,6 +16,12 @@ class PosterController extends Controller
 
     public function store(Brand $brand,Request $request){
         if($request->hasFile('poster')){
+           $request->validate([
+                'poster'        => 'nullable|max:2048',
+            ],
+            [
+                'poster.max' => 'The poster may not be greater than 2 MB.',
+            ]);
             $brand->addMediaFromRequest('poster')->toMediaCollection('posters');
         }
 
