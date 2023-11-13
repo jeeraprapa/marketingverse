@@ -31,6 +31,14 @@
 <body>
     <div class="container-fluid " id="brand">
         <main class="min-vh-100 position-relative">
+            <div class="btn-back position-absolute mt-3 ml-3">
+                <a href="{{route('http::hall')}}" class="btn btn-primary text-white radius-15 p-3 border-0" style="background: #273479">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="#fff">
+                        <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
+                    </svg>
+                    Back To Hall
+                </a>
+            </div>
             <div class="position-absolute min-vw-100 top-50 start-50 translate-middle text-center">
                 <img src="{{ $brand->getFirstMediaUrl("booth") }}" alt="{{$brand->name}}" class="img-fluid">
             </div>

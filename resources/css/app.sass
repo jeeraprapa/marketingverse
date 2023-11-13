@@ -2,12 +2,16 @@
 @import "screen"
 @import "brand"
 
+body
+    background: #f3f4f2
+
 #hall
     background: url("../images/bg.png")
     background-size: cover
     background-repeat: no-repeat
     background-position-y: -100px
     @include screen('md')
+        background-size: 100% 100%
         background-position-y: top
     main
         max-width: 1920px
