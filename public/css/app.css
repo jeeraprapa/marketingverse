@@ -12306,6 +12306,10 @@ textarea.form-control-lg {
   }
 }
 
+body {
+  background: #f3f4f2;
+}
+
 #hall {
   background: url("../images/bg.png");
   background-size: cover;
@@ -12314,6 +12318,7 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 768px) {
   #hall {
+    background-size: 100% 100%;
     background-position-y: top;
   }
 }
