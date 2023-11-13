@@ -12013,7 +12013,19 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 1200px) {
   #brand .icon-block {
-    width: 55px;
+    width: 74px;
+    height: auto;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #brand .icon-block {
+    width: 87px;
+    height: auto;
+  }
+}
+@media screen and (min-width: 2000px) {
+  #brand .icon-block {
+    width: 78px;
     height: auto;
   }
 }
@@ -12047,20 +12059,20 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 1440px) {
   #brand .block-photo .icon {
-    top: 53.1%;
-    left: 12.7%;
+    top: 53%;
+    left: 12%;
   }
 }
 @media screen and (min-width: 1600px) {
   #brand .block-photo .icon {
     top: 53%;
-    left: 22%;
+    left: 21%;
   }
 }
 @media screen and (min-width: 2000px) {
   #brand .block-photo .icon {
-    top: 52.3%;
-    left: 29.2%;
+    top: 52%;
+    left: 28.5%;
   }
 }
 #brand .block-vdo .icon {
@@ -12099,14 +12111,14 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 1600px) {
   #brand .block-vdo .icon {
-    top: 46.4%;
-    left: 43.5%;
+    top: 44%;
+    left: 42%;
   }
 }
 @media screen and (min-width: 2000px) {
   #brand .block-vdo .icon {
-    top: 47.3%;
-    left: 45.2%;
+    top: 46%;
+    left: 44%;
   }
 }
 #brand .block-brochure .icon {
@@ -12139,20 +12151,20 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 1440px) {
   #brand .block-brochure .icon {
-    top: 49.7%;
-    left: 53%;
+    top: 50%;
+    left: 52%;
   }
 }
 @media screen and (min-width: 1600px) {
   #brand .block-brochure .icon {
-    top: 49.5%;
-    left: 52.2%;
+    top: 49%;
+    left: 51.4%;
   }
 }
 @media screen and (min-width: 2000px) {
   #brand .block-brochure .icon {
-    top: 49.8%;
-    left: 51.7%;
+    top: 50%;
+    left: 51.4%;
   }
 }
 #brand .block-doc .icon {
@@ -12185,20 +12197,20 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 1440px) {
   #brand .block-doc .icon {
-    top: 49.7%;
-    left: 60.5%;
+    top: 50%;
+    left: 60%;
   }
 }
 @media screen and (min-width: 1600px) {
   #brand .block-doc .icon {
-    top: 49.5%;
-    left: 57.8%;
+    top: 49%;
+    left: 57%;
   }
 }
 @media screen and (min-width: 2000px) {
   #brand .block-doc .icon {
-    top: 49.8%;
-    left: 56%;
+    top: 50%;
+    left: 55.4%;
   }
 }
 #brand .block-info .icon {
@@ -12231,19 +12243,19 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 1440px) {
   #brand .block-info .icon {
-    top: 67.5%;
+    top: 63%;
     left: 41%;
   }
 }
 @media screen and (min-width: 1600px) {
   #brand .block-info .icon {
-    top: 65.5%;
-    left: 43.4%;
+    top: 63%;
+    left: 43%;
   }
 }
 @media screen and (min-width: 2000px) {
   #brand .block-info .icon {
-    top: 62.3%;
+    top: 62%;
     left: 45%;
   }
 }
@@ -12277,20 +12289,20 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 1440px) {
   #brand .block-poster .icon {
-    top: 58.4%;
-    left: 79.7%;
+    top: 57%;
+    left: 79%;
   }
 }
 @media screen and (min-width: 1600px) {
   #brand .block-poster .icon {
-    top: 57.4%;
-    left: 72.1%;
+    top: 58%;
+    left: 71.5%;
   }
 }
 @media screen and (min-width: 2000px) {
   #brand .block-poster .icon {
-    top: 55.8%;
-    left: 66.6%;
+    top: 56%;
+    left: 66%;
   }
 }
 
