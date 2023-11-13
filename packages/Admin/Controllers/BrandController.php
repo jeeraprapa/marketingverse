@@ -27,16 +27,16 @@ class BrandController extends Controller
                 'description' => 'required',
                 'youtube_url' => 'required',
                 'slug'        => 'required',
-                'thumbnail'        => 'nullable|max:4096',
-                'booth'        => 'nullable|max:4096',
-                'brochure'        => 'nullable|max:4096',
-                'document'        => 'nullable|max:4096',
+                'thumbnail'        => 'nullable|max:10240',
+                'booth'        => 'nullable|max:10240',
+                'brochure'        => 'nullable|max:10240',
+                'document'        => 'nullable|max:10240',
             ],
             [
-                'thumbnail.size' => 'The thumbnail may not be greater than 4 MB.',
-                'booth.size' => 'The booth may not be greater than 4 MB.',
-                'brochure.size' => 'The brochure may not be greater than 4 MB.',
-                'document.size' => 'The document may not be greater than 4 MB.',
+                'thumbnail.size' => 'The thumbnail may not be greater than 10 MB.',
+                'booth.size' => 'The booth may not be greater than 10 MB.',
+                'brochure.size' => 'The brochure may not be greater than 10 MB.',
+                'document.size' => 'The document may not be greater than 10 MB.',
             ]
         );
         $brand = Brand::create($data);
@@ -70,16 +70,16 @@ class BrandController extends Controller
             'description' => 'required',
             'youtube_url' => 'required',
             'slug'        => 'required',
-            'thumbnail'        => 'nullable|max:4096',
-            'booth'        => 'nullable|max:4096',
-            'brochure'        => 'nullable|max:4096',
-            'document'        => 'nullable|max:4096',
+            'thumbnail'        => 'nullable|max:10240',
+            'booth'        => 'nullable|max:10240',
+            'brochure'        => 'nullable|max:10240',
+            'document'        => 'nullable|max:10240',
         ],
         [
-            'thumbnail.max' => 'The thumbnail may not be greater than 4 MB.',
-            'booth.max' => 'The booth may not be greater than 4 MB.',
-            'brochure.max' => 'The brochure may not be greater than 4 MB.',
-            'document.max' => 'The document may not be greater than 4 MB.',
+            'thumbnail.max' => 'The thumbnail may not be greater than 10 MB.',
+            'booth.max' => 'The booth may not be greater than 10 MB.',
+            'brochure.max' => 'The brochure may not be greater than 10 MB.',
+            'document.max' => 'The document may not be greater than 10 MB.',
         ]
         );
 
