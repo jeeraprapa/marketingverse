@@ -4,7 +4,7 @@
         {{Form::text('name',null,['class'=>'form-control'])}}
     </div>
     <div class="col-12 col-md-12 mb-3">
-        {{Form::label('slug',null,['class'=>'form-label'])}}
+        {{Form::label('slug',"Slug Url",['class'=>'form-label'])}}
         {{Form::text('slug',null,['class'=>'form-control'])}}
     </div>
     <div class="col-12 col-md-12 mb-3">
@@ -17,13 +17,23 @@
     </div>
 
     <div class="col-12 col-md-12 mb-3">
-        {{Form::label('thumbnail',null,['class'=>'form-label'])}}
-        {{Form::file('thumbnail',['class'=>'form-control'])}}
+        {{Form::label('thumbnail','ภาพบูธหน้ารวม',['class'=>'form-label'])}}
+        @if(isset($brand) && $brand->getFirstMedia('thumbnail'))
+            <div class="d-block mb-2">
+                <img src="{{$brand->getFirstMediaUrl('thumbnail')}}" alt="" class="img-thumbnail" style="max-height: 200px;max-width: 200px">
+            </div>
+        @endif
+        {{Form::file('thumbnail',['class'=>'form-control','accept'=>'image/*'])}}
     </div>
 
     <div class="col-12 col-md-12 mb-3">
-        {{Form::label('booth',null,['class'=>'form-label'])}}
-        {{Form::file('booth',['class'=>'form-control'])}}
+        {{Form::label('booth','ภาพบูธหลัก',['class'=>'form-label'])}}
+        @if(isset($brand) && $brand->getFirstMedia('booth'))
+            <div class="d-block mb-2">
+                <img src="{{$brand->getFirstMediaUrl('booth')}}" alt="" class="img-thumbnail" style="max-height: 200px;max-width: 200px">
+            </div>
+        @endif
+        {{Form::file('booth',['class'=>'form-control','accept'=>'image/*'])}}
     </div>
 
     <div class="col-12 col-md-12 mb-3">
