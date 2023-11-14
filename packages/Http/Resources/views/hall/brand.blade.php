@@ -32,11 +32,11 @@
     <div class="container-fluid " id="brand">
         <main class="min-vh-100 position-relative">
             <div class="btn-back position-absolute mt-3 ml-3">
-                <a href="{{route('http::hall')}}" class="btn btn-primary text-white radius-15 p-3 border-0" style="background: #273479">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="#fff">
-                        <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
-                    </svg>
-                    Back To Hall
+                <a href="{{route('http::hall')}}" 
+                class="btn btn-primary text-white radius-15 p-3 rounded-pill" 
+                style="background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(8,0,70,1) 43%, rgba(28,116,181,1) 100%);border-color:rgba(8,0,70,1)">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M48 256a208 208 0 1 1 416 0A208 208 0 1 1 48 256zm464 0A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM217.4 376.9c4.2 4.5 10.1 7.1 16.3 7.1c12.3 0 22.3-10 22.3-22.3V304h96c17.7 0 32-14.3 32-32V240c0-17.7-14.3-32-32-32H256V150.3c0-12.3-10-22.3-22.3-22.3c-6.2 0-12.1 2.6-16.3 7.1L117.5 242.2c-3.5 3.8-5.5 8.7-5.5 13.8s2 10.1 5.5 13.8l99.9 107.1z"/></svg>
+                    <span class="fw-bold">BACK TO HALL</span>
                 </a>
             </div>
             <div class="position-absolute min-vw-100 top-50 start-50 translate-middle text-center">
