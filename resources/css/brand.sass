@@ -3,211 +3,56 @@
     background-size: cover
     background-repeat: no-repeat
     background-position-y: -100px
+    min-height: 100vh
     @include screen('md')
         background-size: 100% 100%
         background-position-y: top
     .icon-block
-        width: 29px
-        height: auto
         opacity: 0
-        @include screen('md')
-            width: 35px
-            height: auto
-        @include screen('lg')
-            width: 55px
-            height: auto
-        @include screen('ipad')
-            width: 45px
-            height: auto
-        @include screen('xl')
-            width: 74px
-            height: auto
-        @include screen('xwide')
-            width: 87px
-            height: auto
-        @include screen('xlwide')
-            width: 78px
-            height: auto
-
-    .icon-block-photo
-        width: 29px
-        height: 45px
-        @include screen('wide')
-            width: 72px
-            height: 119px
-        @include screen('xwide')
-            width: 93px
-            height: 125px
-        @include screen('xlwide')
-            width: 78px
-            height: auto
-
-    .icon-block-info
-        width: 100px
-        height: 19px
-        @include screen('wide')
-            width: 249px
-            height: 61px
-        @include screen('xwide')
-            width: 248px
-            height: 72px
-        @include screen('xlwide')
-            width: 78px
-            height: auto
-
-
-    .block-photo
-        .icon
-            top: 51%
-            left: 5%
-            @include screen('sm')
-                top: 50.5%
-                left: 5.5%
-            @include screen('md')
-                top: 51.7%
-                left: 7.3%
-            @include screen('lg')
-                top: 54%
-                left: 15%
-            @include screen('ipad')
-                top: 52.7%
-                left: 7.7%
-            @include screen('wide')
-                top: 53%
-                left: 12%
-            @include screen('xwide')
-                top: 53%
-                left: 21%
-            @include screen('xlwide')
-                top: 52%
-                left: 28.5%
-
-    .block-vdo
-        .icon
-            top: 48.3%
-            left: 39.5%
-            @include screen('sm')
-                top: 48%
-                left: 39.5%
-            @include screen('md')
-                top: 47.3%
-                left: 40%
-            @include screen('lg')
-                top: 45.3%
-                left: 41.8%
-            @include screen('ipad')
-                top: 46.7%
-                left: 40%
-            @include screen('wide')
-                top: 45%
-                left: 41.3%
-            @include screen('xwide')
-                top: 44%
-                left: 42%
-            @include screen('xlwide')
-                top: 46%
-                left: 44%
-
-    .block-brochure
-        .icon
-            top: 50%
-            left: 53%
-            @include screen('sm')
-                top: 49.2%
-                left: 53.2%
-            @include screen('md')
-                top: 49.6%
-                left: 53.4%
-            @include screen('lg')
-                top: 49.5%
-                left: 52.8%
-            @include screen('ipad')
-                top: 49.7%
-                left: 53.5%
-            @include screen('wide')
-                top: 50%
-                left: 52%
-            @include screen('xwide')
-                top: 49%
-                left: 51.4%
-            @include screen('xlwide')
-                top: 50%
-                left: 51.4%
-
-    .block-doc
-        .icon
-            top: 50%
-            left: 62%
-            @include screen('sm')
-                top: 49.2%
-                left: 62.1%
-            @include screen('md')
-                top: 49.6%
-                left: 61.8%
-            @include screen('lg')
-                top: 49.5%
-                left: 59.8%
-            @include screen('ipad')
-                top: 49.7%
-                left: 62%
-            @include screen('wide')
-                top: 50%
-                left: 59%
-            @include screen('xwide')
-                top: 49%
-                left: 57%
-            @include screen('xlwide')
-                top: 50%
-                left: 55.4%
 
     .block-info
-        .icon
-            top: 54.4%
-            left: 39.1%
-            @include screen('sm')
-                top: 54.5%
-                left: 39%
-            @include screen('md')
-                top: 60.7%
-                left: 39.5%
-            @include screen('lg')
-                top: 70%
-                left: 41.6%
-            @include screen('ipad')
-                top: 64%
-                left: 40%
-            @include screen('wide')
-                top: 63%
-                left: 41%
-            @include screen('xwide')
-                top: 65%
-                left: 43%
-            @include screen('xlwide')
-                top: 62%
-                left: 45% 
+        top: 72.7%
+        left: 36%
+        position: absolute
+        .icon-block
+            width: 28vw
+            height: auto
+
+    .block-photo
+        top: 52%
+        left: 5%
+        position: absolute
+        .icon-block
+            width: 10vw
+            height: auto
+
+    .block-vdo
+        top: 38%
+        left: 35%
+        position: absolute
+        .icon-block
+            width: 15vw
+            height: auto
 
     .block-poster
-        .icon
-            top: 52.2%
-            left: 83.6%
-            @include screen('sm')
-                top: 51.7%
-                left: 85%
-            @include screen('md')
-                top: 54.8%
-                left: 83.7%
-            @include screen('lg')
-                top: 59.8%
-                left: 77.8%
-            @include screen('ipad')
-                top: 56.7%
-                left: 83.6%
-            @include screen('wide')
-                top: 57%
-                left: 79%
-            @include screen('xwide')
-                top: 58%
-                left: 71.5%
-            @include screen('xlwide')
-                top: 56%
-                left: 66%
+        top: 55%
+        right: 9%
+        position: absolute
+        .icon-block
+            width: 11vw
+            height: auto
+
+    .block-brochure
+        top: 45%
+        left: 52%
+        position: absolute
+        .icon-block
+            width: 6.4vw
+            height: auto
+    .block-doc
+        top: 46%
+        left: 60%
+        position: absolute
+        .icon-block
+            width: 7vw
+            height: auto

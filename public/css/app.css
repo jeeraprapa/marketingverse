@@ -11981,6 +11981,7 @@ textarea.form-control-lg {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: -100px;
+  min-height: 100vh;
 }
 @media screen and (min-width: 768px) {
   #brand {
@@ -11989,365 +11990,61 @@ textarea.form-control-lg {
   }
 }
 #brand .icon-block {
-  width: 29px;
-  height: auto;
   opacity: 0;
 }
-@media screen and (min-width: 768px) {
-  #brand .icon-block {
-    width: 35px;
-    height: auto;
-  }
+#brand .block-info {
+  top: 72.7%;
+  left: 36%;
+  position: absolute;
 }
-@media screen and (min-width: 992px) {
-  #brand .icon-block {
-    width: 55px;
-    height: auto;
-  }
+#brand .block-info .icon-block {
+  width: 28vw;
+  height: auto;
 }
-@media screen and (min-width: 1024px) {
-  #brand .icon-block {
-    width: 45px;
-    height: auto;
-  }
-}
-@media screen and (min-width: 1200px) {
-  #brand .icon-block {
-    width: 74px;
-    height: auto;
-  }
-}
-@media screen and (min-width: 1600px) {
-  #brand .icon-block {
-    width: 87px;
-    height: auto;
-  }
-}
-@media screen and (min-width: 2000px) {
-  #brand .icon-block {
-    width: 78px;
-    height: auto;
-  }
-}
-#brand .icon-block-photo {
-  width: 29px;
-  height: 45px;
-}
-@media screen and (min-width: 1440px) {
-  #brand .icon-block-photo {
-    width: 72px;
-    height: 119px;
-  }
-}
-@media screen and (min-width: 1600px) {
-  #brand .icon-block-photo {
-    width: 93px;
-    height: 125px;
-  }
-}
-@media screen and (min-width: 2000px) {
-  #brand .icon-block-photo {
-    width: 78px;
-    height: auto;
-  }
-}
-#brand .icon-block-info {
-  width: 100px;
-  height: 19px;
-}
-@media screen and (min-width: 1440px) {
-  #brand .icon-block-info {
-    width: 249px;
-    height: 61px;
-  }
-}
-@media screen and (min-width: 1600px) {
-  #brand .icon-block-info {
-    width: 248px;
-    height: 72px;
-  }
-}
-@media screen and (min-width: 2000px) {
-  #brand .icon-block-info {
-    width: 78px;
-    height: auto;
-  }
-}
-#brand .block-photo .icon {
-  top: 51%;
+#brand .block-photo {
+  top: 52%;
   left: 5%;
+  position: absolute;
 }
-@media screen and (min-width: 576px) {
-  #brand .block-photo .icon {
-    top: 50.5%;
-    left: 5.5%;
-  }
+#brand .block-photo .icon-block {
+  width: 10vw;
+  height: auto;
 }
-@media screen and (min-width: 768px) {
-  #brand .block-photo .icon {
-    top: 51.7%;
-    left: 7.3%;
-  }
+#brand .block-vdo {
+  top: 38%;
+  left: 35%;
+  position: absolute;
 }
-@media screen and (min-width: 992px) {
-  #brand .block-photo .icon {
-    top: 54%;
-    left: 15%;
-  }
+#brand .block-vdo .icon-block {
+  width: 15vw;
+  height: auto;
 }
-@media screen and (min-width: 1024px) {
-  #brand .block-photo .icon {
-    top: 52.7%;
-    left: 7.7%;
-  }
+#brand .block-poster {
+  top: 55%;
+  right: 9%;
+  position: absolute;
 }
-@media screen and (min-width: 1440px) {
-  #brand .block-photo .icon {
-    top: 53%;
-    left: 12%;
-  }
+#brand .block-poster .icon-block {
+  width: 11vw;
+  height: auto;
 }
-@media screen and (min-width: 1600px) {
-  #brand .block-photo .icon {
-    top: 53%;
-    left: 21%;
-  }
+#brand .block-brochure {
+  top: 45%;
+  left: 52%;
+  position: absolute;
 }
-@media screen and (min-width: 2000px) {
-  #brand .block-photo .icon {
-    top: 52%;
-    left: 28.5%;
-  }
+#brand .block-brochure .icon-block {
+  width: 6.4vw;
+  height: auto;
 }
-#brand .block-vdo .icon {
-  top: 48.3%;
-  left: 39.5%;
+#brand .block-doc {
+  top: 46%;
+  left: 60%;
+  position: absolute;
 }
-@media screen and (min-width: 576px) {
-  #brand .block-vdo .icon {
-    top: 48%;
-    left: 39.5%;
-  }
-}
-@media screen and (min-width: 768px) {
-  #brand .block-vdo .icon {
-    top: 47.3%;
-    left: 40%;
-  }
-}
-@media screen and (min-width: 992px) {
-  #brand .block-vdo .icon {
-    top: 45.3%;
-    left: 41.8%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  #brand .block-vdo .icon {
-    top: 46.7%;
-    left: 40%;
-  }
-}
-@media screen and (min-width: 1440px) {
-  #brand .block-vdo .icon {
-    top: 45%;
-    left: 41.3%;
-  }
-}
-@media screen and (min-width: 1600px) {
-  #brand .block-vdo .icon {
-    top: 44%;
-    left: 42%;
-  }
-}
-@media screen and (min-width: 2000px) {
-  #brand .block-vdo .icon {
-    top: 46%;
-    left: 44%;
-  }
-}
-#brand .block-brochure .icon {
-  top: 50%;
-  left: 53%;
-}
-@media screen and (min-width: 576px) {
-  #brand .block-brochure .icon {
-    top: 49.2%;
-    left: 53.2%;
-  }
-}
-@media screen and (min-width: 768px) {
-  #brand .block-brochure .icon {
-    top: 49.6%;
-    left: 53.4%;
-  }
-}
-@media screen and (min-width: 992px) {
-  #brand .block-brochure .icon {
-    top: 49.5%;
-    left: 52.8%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  #brand .block-brochure .icon {
-    top: 49.7%;
-    left: 53.5%;
-  }
-}
-@media screen and (min-width: 1440px) {
-  #brand .block-brochure .icon {
-    top: 50%;
-    left: 52%;
-  }
-}
-@media screen and (min-width: 1600px) {
-  #brand .block-brochure .icon {
-    top: 49%;
-    left: 51.4%;
-  }
-}
-@media screen and (min-width: 2000px) {
-  #brand .block-brochure .icon {
-    top: 50%;
-    left: 51.4%;
-  }
-}
-#brand .block-doc .icon {
-  top: 50%;
-  left: 62%;
-}
-@media screen and (min-width: 576px) {
-  #brand .block-doc .icon {
-    top: 49.2%;
-    left: 62.1%;
-  }
-}
-@media screen and (min-width: 768px) {
-  #brand .block-doc .icon {
-    top: 49.6%;
-    left: 61.8%;
-  }
-}
-@media screen and (min-width: 992px) {
-  #brand .block-doc .icon {
-    top: 49.5%;
-    left: 59.8%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  #brand .block-doc .icon {
-    top: 49.7%;
-    left: 62%;
-  }
-}
-@media screen and (min-width: 1440px) {
-  #brand .block-doc .icon {
-    top: 50%;
-    left: 59%;
-  }
-}
-@media screen and (min-width: 1600px) {
-  #brand .block-doc .icon {
-    top: 49%;
-    left: 57%;
-  }
-}
-@media screen and (min-width: 2000px) {
-  #brand .block-doc .icon {
-    top: 50%;
-    left: 55.4%;
-  }
-}
-#brand .block-info .icon {
-  top: 54.4%;
-  left: 39.1%;
-}
-@media screen and (min-width: 576px) {
-  #brand .block-info .icon {
-    top: 54.5%;
-    left: 39%;
-  }
-}
-@media screen and (min-width: 768px) {
-  #brand .block-info .icon {
-    top: 60.7%;
-    left: 39.5%;
-  }
-}
-@media screen and (min-width: 992px) {
-  #brand .block-info .icon {
-    top: 70%;
-    left: 41.6%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  #brand .block-info .icon {
-    top: 64%;
-    left: 40%;
-  }
-}
-@media screen and (min-width: 1440px) {
-  #brand .block-info .icon {
-    top: 63%;
-    left: 41%;
-  }
-}
-@media screen and (min-width: 1600px) {
-  #brand .block-info .icon {
-    top: 65%;
-    left: 43%;
-  }
-}
-@media screen and (min-width: 2000px) {
-  #brand .block-info .icon {
-    top: 62%;
-    left: 45%;
-  }
-}
-#brand .block-poster .icon {
-  top: 52.2%;
-  left: 83.6%;
-}
-@media screen and (min-width: 576px) {
-  #brand .block-poster .icon {
-    top: 51.7%;
-    left: 85%;
-  }
-}
-@media screen and (min-width: 768px) {
-  #brand .block-poster .icon {
-    top: 54.8%;
-    left: 83.7%;
-  }
-}
-@media screen and (min-width: 992px) {
-  #brand .block-poster .icon {
-    top: 59.8%;
-    left: 77.8%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  #brand .block-poster .icon {
-    top: 56.7%;
-    left: 83.6%;
-  }
-}
-@media screen and (min-width: 1440px) {
-  #brand .block-poster .icon {
-    top: 57%;
-    left: 79%;
-  }
-}
-@media screen and (min-width: 1600px) {
-  #brand .block-poster .icon {
-    top: 58%;
-    left: 71.5%;
-  }
-}
-@media screen and (min-width: 2000px) {
-  #brand .block-poster .icon {
-    top: 56%;
-    left: 66%;
-  }
+#brand .block-doc .icon-block {
+  width: 7vw;
+  height: auto;
 }
 
 body {
