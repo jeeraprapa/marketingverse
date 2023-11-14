@@ -39,7 +39,7 @@
             </a>
         </div>
 
-        <main class="position-absolute min-vw-100 top-50 start-50 translate-middle" style="border: solid 1px red">
+        <main class="position-absolute min-vw-100 top-50 start-50 translate-middle">
             <div class="text-center">
                 <img src="{{ $brand->getFirstMediaUrl("booth") }}" alt="{{$brand->name}}" class="img-fluid w-100">
 

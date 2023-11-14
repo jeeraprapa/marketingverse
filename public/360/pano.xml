@@ -1,104 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.1.14" start="node2" apprev="18105">
+<tour start="node2" appversion="6.1.14" apprev="18105">
   <panorama id="node2" hideabout="1">
-    <input levelbiashidpi="1.000" width="4096" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0" height="4096" levelingroll="0" levelbias="0.400" leveltilesize="510">
-      <level width="4096" preload="0" predecode="0" height="4096"/>
-      <level width="2048" preload="0" predecode="0" height="2048"/>
-      <level width="1024" preload="0" predecode="0" height="1024"/>
-      <level width="512" preload="0" predecode="0" height="512"/>
-      <level width="256" preload="1" predecode="1" height="256"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltilesize="510" overlap="1" height="4096" width="4096" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" predecode="0" height="4096" width="4096"/>
+      <level preload="0" predecode="0" height="2048" width="2048"/>
+      <level preload="0" predecode="0" height="1024" width="1024"/>
+      <level preload="0" predecode="0" height="512" width="512"/>
+      <level preload="1" predecode="1" height="256" width="256"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start projection="4" pan="-91.68" tilt="-8" fov="54"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="-155" tilt="-10" fov="35.67"/>
-      <max pan="-32" fovfisheye="360" scaletofit="1" tilt="39" fovstereographic="270" fov="75"/>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" tilt="-8" pan="-91.68" fov="54"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-10" pan="-155" fov="35.67"/>
+      <max fovfisheye="360" tilt="39" fovstereographic="270" pan="-32" fov="75" scaletofit="1"/>
     </view>
-    <userdata comment="" tags="Pano2VR99" description="" latitude="" heading="0" source="" author="" info="" datetime="" copyright="" nodeid="node2" longitude="" title="" customnodeid=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label backgroundalpha="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" wordwrap="1" textcolor="0x000000" height="20" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" background="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot customimage="media/buttom Entance.png" skinid="ht_node" description="" customimageheight="337" id="Point02" pan="-89.74" use3D="1" distance3D="6272.92" customimagewidth="907" tilt="-3.31" url="{node1}" target="-88.8/-8.0/54.0" fov="8.27" title=""/>
-      <polyhotspot description="" id="Poly01" url="{node1}" target="-88.8/-8.0/54.0" title="">
+    <userdata tags="Pano2VR99" longitude="" description="" heading="0" latitude="" source="" nodeid="node2" copyright="" title="" info="" comment="" datetime="" customnodeid="" author=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundcolor="0xffffff" borderradius="1" wordwrap="1" backgroundalpha="1" height="20" enabled="1" width="180" textalpha="1" borderalpha="1" bordercolor="0x000000" background="1" border="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" handcursor="1"/>
+      <hotspot customimagewidth="907" use3D="1" id="Point02" description="" url="{node1}" title="" target="-88.8/-8.0/54.0" skinid="ht_node" tilt="-3.31" pan="-89.74" fov="8.27" distance3D="6272.92" customimage="media/buttom Entance.png" customimageheight="337"/>
+      <polyhotspot id="Poly01" description="" url="{node1}" title="" target="-88.8/-8.0/54.0">
         <polystring>-85.32/-1.31|-94.59/-1.11|-94.32/-5.54|-85.44/-5.58|-85.03/-5.64</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <image rotx="21.000" id="Element01" pan="-90.760" roty="-2.000" width="2500" rotz="0.000" clickmode="0" tilt="24.990" height="900" handcursor="0" stretch="1.000" fov="41.104">
+      <image id="Element01" roty="-2.000" rotz="0.000" rotx="21.000" stretch="1.000" height="900" width="2500" tilt="24.990" pan="-90.760" fov="41.104" clickmode="0" handcursor="0">
         <source url="media/Artboard 22x.png"/>
       </image>
-      <image rotx="0.000" id="Element02" pan="-89.860" roty="0.000" width="6344" rotz="0.000" clickmode="0" tilt="6.550" height="3480" handcursor="0" stretch="1.000" fov="24.960">
+      <image id="Element02" roty="0.000" rotz="0.000" rotx="0.000" stretch="1.000" height="3480" width="6344" tilt="6.550" pan="-89.860" fov="24.960" clickmode="0" handcursor="0">
         <source url="media/gate3x (1).png"/>
       </image>
-      <sound level="0.300" loop="5" id="_background" pan="-1.000" pansize="10.000" tiltsize="10.000" ambientlevel="0.000" nodechangekeep="0" mode="0" field="90.000" tilt="-1.000" startmutedmobile="0">
+      <sound id="_background" field="90.000" nodechangekeep="0" startmutedmobile="0" loop="5" ambientlevel="0.000" tilt="-1.000" pansize="10.000" pan="-1.000" level="0.300" mode="0" tiltsize="10.000">
         <source url="media/Vice-City-feat.-My-City-Glory.mp3"/>
       </sound>
     </media>
-    <transition zoomfov="20" zoomafteroutfov="20" blendcolor="0x000000" enabled="0" zoomout="0" softedge="0" zoomspeed="2" blendtime="1" zoomin="0" zoomoutpause="1" type="crossdissolve" zoomafterinfov="90"/>
-    <autorotate useanimation="0" enabled="1" returntohorizon="0.000" nodefilter="" startloaded="0" nodedelay="0.00" speed="0.010" delay="5.00" noderandom="1"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control contextfullscreen="1" simulatemass="1" sensitivity="8" lockedkeyboard="0" hideabout="1" invertcontrol="1" contextprojections="0" dblclickfullscreen="0" invertwheel="0" rubberband="0" contextvr="0" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0" lockedwheel="0"/>
+    <transition softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="20" blendtime="1" zoomfov="20" zoomin="0" zoomoutpause="1" enabled="0" zoomout="0" blendcolor="0x000000" zoomafterinfov="90"/>
+    <autorotate delay="5.00" startloaded="0" nodefilter="" speed="0.010" enabled="1" useanimation="0" noderandom="1" nodedelay="0.00" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertcontrol="1" dblclickfullscreen="0" invertwheel="0" hideabout="1" sensitivity="8" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" speedwheel="1" contextvr="0" simulatemass="1" contextfullscreen="1"/>
   </panorama>
   <panorama id="node1" hideabout="1">
-    <input levelbiashidpi="1.000" width="2048" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0" height="2048" levelingroll="0" levelbias="0.400" leveltilesize="510">
-      <level width="2048" preload="0" predecode="0" height="2048"/>
-      <level width="1024" preload="0" predecode="0" height="1024"/>
-      <level width="512" preload="0" predecode="0" height="512"/>
-      <level width="256" preload="1" predecode="1" height="256"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltilesize="510" overlap="1" height="2048" width="2048" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" predecode="0" height="2048" width="2048"/>
+      <level preload="0" predecode="0" height="1024" width="1024"/>
+      <level preload="0" predecode="0" height="512" width="512"/>
+      <level preload="1" predecode="1" height="256" width="256"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start projection="4" pan="-88.77" tilt="-12.9" fov="76.67"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="-155" tilt="-35" fov="35.67"/>
-      <max pan="-32" fovfisheye="360" scaletofit="1" tilt="19" fovstereographic="270" fov="55"/>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" tilt="-12.9" pan="-88.77" fov="76.67"/>
+      <flyin projection="9" tilt="-90" pan="0" fov="170"/>
+      <min tilt="-35" pan="-155" fov="35.67"/>
+      <max fovfisheye="360" tilt="19" fovstereographic="270" pan="-32" fov="55" scaletofit="1"/>
     </view>
-    <userdata comment="" tags="New folder (2)" description="" latitude="" heading="0" source="" author="" info="" datetime="" copyright="" nodeid="node1" longitude="" title="" customnodeid=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label backgroundalpha="1" border="1" enabled="1" width="180" borderradius="1" textalpha="1" wordwrap="1" textcolor="0x000000" height="20" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" background="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot customimage="media/buttom Entance.png" skinid="ht_url" description="" customimageheight="337" id="Point01" pan="-53.33" use3D="1" distance3D="6265.31" customimagewidth="907" tilt="-15.5" url="https://www.worldmarketingforum3.com/hall" target="_top" fov="8.279999999999999" title="Hall "/>
-      <hotspot customimage="media/buttom Entance.png" skinid="ht_url" description="" customimageheight="337" id="Point03" pan="-122.43" use3D="1" distance3D="6660.74" customimagewidth="907" tilt="-15.73" url="https://poplive.co/e/ThailandMarketingday2023" target="_top" fov="7.79" title=""/>
-      <hotspot customimage="media/Search_for.svg" skinid="ht_url" description="" customimageheight="27" id="Point02" pan="-79.32" use3D="0" distance3D="154.306" customimagewidth="27" tilt="-18.86" url="https://drive.google.com/open?id=1eVhdeBecAnbhf6jNeEdl6qWd5wJ0IU30&amp;usp=drive_fs" target="_top" fov="10" title=""/>
-      <hotspot customimage="media/Search_for.svg" skinid="ht_url" description="" customimageheight="34" id="Point04" pan="-73.39" use3D="0" distance3D="194.311" customimagewidth="34" tilt="-26.28" url="https://drive.google.com/open?id=1eVsOM5fKt8Wdc1BHlSMl9EQBBeqFRT4Q&amp;usp=drive_fs" target="_blank" fov="10" title=""/>
-      <hotspot customimage="media/Search_for.svg" skinid="ht_url" description="" customimageheight="28" id="Point02" pan="-103.13" use3D="0" distance3D="160.021" customimagewidth="28" tilt="-17.84" url="https://drive.google.com/open?id=1eV__-57FXzZrDpDrs1rxW7GFstuTPFPc&amp;usp=drive_fs" target="_blank" fov="10" title=""/>
+    <userdata tags="New folder (2)" longitude="" description="" heading="0" latitude="" source="" nodeid="node1" copyright="" title="" info="" comment="" datetime="" customnodeid="" author=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundcolor="0xffffff" borderradius="1" wordwrap="1" backgroundalpha="1" height="20" enabled="1" width="180" textalpha="1" borderalpha="1" bordercolor="0x000000" background="1" border="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" handcursor="1"/>
+      <hotspot customimagewidth="907" use3D="1" id="Point01" description="" url="https://www.worldmarketingforum3.com/hall" title="Hall " target="_blank" skinid="ht_url" tilt="-15.5" pan="-53.33" fov="8.279999999999999" distance3D="6265.31" customimage="media/buttom Entance.png" customimageheight="337"/>
+      <hotspot customimagewidth="907" use3D="1" id="Point03" description="" url="" title="" target="_blank" skinid="ht_url" tilt="-15.73" pan="-122.43" fov="7.79" distance3D="6660.74" customimage="media/buttom Entance.png" customimageheight="337"/>
+      <hotspot customimagewidth="27" use3D="0" id="Point02" description="" url="https://drive.google.com/open?id=1eVhdeBecAnbhf6jNeEdl6qWd5wJ0IU30&amp;usp=drive_fs" title="" target="_blank" skinid="ht_url" tilt="-18.86" pan="-79.32" fov="10" distance3D="154.306" customimage="media/Search_for.svg" customimageheight="27"/>
+      <hotspot customimagewidth="34" use3D="0" id="Point04" description="" url="https://drive.google.com/open?id=1eVsOM5fKt8Wdc1BHlSMl9EQBBeqFRT4Q&amp;usp=drive_fs" title="" target="_blank" skinid="ht_url" tilt="-26.28" pan="-73.39" fov="10" distance3D="194.311" customimage="media/Search_for.svg" customimageheight="34"/>
+      <hotspot customimagewidth="28" use3D="0" id="Point02" description="" url="https://drive.google.com/open?id=1eV__-57FXzZrDpDrs1rxW7GFstuTPFPc&amp;usp=drive_fs" title="" target="_blank" skinid="ht_url" tilt="-18.58" pan="-103.73" fov="10" distance3D="160.021" customimage="media/Search_for.svg" customimageheight="28"/>
     </hotspots>
     <media>
-      <image rotx="0.000" id="Element01" pan="-53.260" roty="0.000" width="1891" rotz="-2.000" clickmode="0" tilt="-8.230" height="621" handcursor="0" stretch="1.000" fov="16.614">
+      <image id="Element01" roty="0.000" rotz="-2.000" rotx="0.000" stretch="1.000" height="621" width="1891" tilt="-8.230" pan="-53.260" fov="16.614" clickmode="0" handcursor="0">
         <source url="media/Asset 1@3x.png"/>
       </image>
-      <image rotx="1.000" id="Element02" pan="-123.030" roty="12.000" width="1858" rotz="1.000" clickmode="0" tilt="-8.110" height="615" handcursor="0" stretch="1.000" fov="16.299">
+      <image id="Element02" roty="12.000" rotz="1.000" rotx="1.000" stretch="1.000" height="615" width="1858" tilt="-8.110" pan="-123.030" fov="16.299" clickmode="0" handcursor="0">
         <source url="media/Asset 2@3x.png"/>
       </image>
-      <image rotx="0.000" id="Element03" pan="-88.550" roty="0.000" width="9010" rotz="0.000" clickmode="0" tilt="-1.410" height="3418" handcursor="0" stretch="1.000" fov="47.170">
+      <image id="Element03" roty="0.000" rotz="0.000" rotx="0.000" stretch="1.000" height="3418" width="9010" tilt="-1.410" pan="-88.550" fov="47.170" clickmode="0" handcursor="0">
         <source url="media/BD.png"/>
       </image>
-      <image rotx="-7.000" id="Element05" pan="-77.490" roty="0.000" width="198" rotz="0.000" clickmode="0" tilt="-19.860" height="355" handcursor="0" stretch="1.000" fov="1.890">
+      <image id="Element05" roty="0.000" rotz="0.000" rotx="-7.000" stretch="1.000" height="355" width="198" tilt="-19.860" pan="-77.490" fov="1.890" clickmode="0" handcursor="0">
         <source url="media/Asset 3@3x.png"/>
       </image>
-      <image rotx="-7.000" id="Element05" pan="-101.160" roty="0.000" width="198" rotz="0.000" clickmode="0" tilt="-19.770" height="355" handcursor="0" stretch="1.000" fov="1.890">
+      <image id="Element05" roty="0.000" rotz="0.000" rotx="-7.000" stretch="1.000" height="355" width="198" tilt="-19.770" pan="-101.160" fov="1.890" clickmode="0" handcursor="0">
         <source url="media/Asset 4@3x.png"/>
       </image>
-      <image rotx="0.000" id="Element06" pan="-70.950" roty="0.000" width="1362" rotz="-15.000" clickmode="0" tilt="-27.580" height="484" handcursor="0" stretch="1.000" fov="3.543">
+      <image id="Element06" roty="0.000" rotz="-15.000" rotx="0.000" stretch="1.000" height="484" width="1362" tilt="-27.580" pan="-70.950" fov="3.543" clickmode="0" handcursor="0">
         <source url="media/kios.png"/>
       </image>
-      <video id="Element04" tilt="1.170" loop="5" handcursor="0" clickmode="2" width="1920" level="0.000" rotz="-1.000" roty="0.000" ambientlevel="0.000" startmutedmobile="1" pansize="10.000" mode="3" height="1080" tiltsize="10.000" nodechangekeep="0" rotx="-1.000" fov="20.240" pan="-52.970" field="90.000" stretch="1.000">
+      <image id="Element07" roty="0.000" rotz="0.000" rotx="0.000" stretch="1.000" height="378" width="1025" tilt="-17.420" pan="-77.500" fov="4.105" clickmode="0" handcursor="0">
+        <source url="media/agenda.png"/>
+      </image>
+      <image id="Element08" roty="0.000" rotz="0.000" rotx="0.000" stretch="1.000" height="378" width="1025" tilt="-17.280" pan="-101.270" fov="4.105" clickmode="0" handcursor="0">
+        <source url="media/agenda2 (1).png"/>
+      </image>
+      <video ambientlevel="0.000" clickmode="2" field="90.000" pan="-52.970" width="1280" pansize="10.000" roty="0.000" nodechangekeep="0" level="0.000" height="720" tilt="1.170" handcursor="0" id="Element04" startmutedmobile="1" loop="5" tiltsize="10.000" stretch="1.000" mode="3" rotx="-1.000" fov="20.240" rotz="-1.000">
         <source url="media/MAT Video.mp4"/>
       </video>
-      <video id="Element04" tilt="1.090" loop="5" handcursor="0" clickmode="2" width="1920" level="0.000" rotz="0.000" roty="0.000" ambientlevel="0.000" startmutedmobile="1" pansize="10.000" mode="3" height="1080" tiltsize="10.000" nodechangekeep="0" rotx="-1.000" fov="20.240" pan="-124.080" field="90.000" stretch="1.000">
+      <video ambientlevel="0.000" clickmode="2" field="90.000" pan="-124.080" width="1280" pansize="10.000" roty="0.000" nodechangekeep="0" level="0.000" height="720" tilt="1.090" handcursor="0" id="Element04" startmutedmobile="1" loop="5" tiltsize="10.000" stretch="1.000" mode="3" rotx="-1.000" fov="20.240" rotz="0.000">
         <source url="media/MAT Video.mp4"/>
       </video>
-      <sound level="0.300" loop="5" id="_background" pan="-1.000" pansize="10.000" tiltsize="10.000" ambientlevel="0.000" nodechangekeep="0" mode="0" field="90.000" tilt="-1.000" startmutedmobile="0">
+      <sound id="_background" field="90.000" nodechangekeep="0" startmutedmobile="0" loop="5" ambientlevel="0.000" tilt="-1.000" pansize="10.000" pan="-1.000" level="0.300" mode="0" tiltsize="10.000">
         <source url="media/Vice-City-feat.-My-City-Glory.mp3"/>
       </sound>
     </media>
-    <transition zoomfov="20" zoomafteroutfov="20" blendcolor="0x000000" enabled="0" zoomout="0" softedge="0" zoomspeed="2" blendtime="1" zoomin="0" zoomoutpause="1" type="crossdissolve" zoomafterinfov="90"/>
-    <autorotate useanimation="0" enabled="1" returntohorizon="0.000" nodefilter="" startloaded="0" nodedelay="0.00" speed="0.010" delay="5.00" noderandom="1"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control contextfullscreen="1" simulatemass="1" sensitivity="8" lockedkeyboard="0" hideabout="1" invertcontrol="1" contextprojections="0" dblclickfullscreen="0" invertwheel="0" rubberband="0" contextvr="0" lockedmouse="0" speedwheel="1" lockedkeyboardzoom="0" lockedwheel="0"/>
+    <transition softedge="0" zoomspeed="2" type="crossdissolve" zoomafteroutfov="20" blendtime="1" zoomfov="20" zoomin="0" zoomoutpause="1" enabled="0" zoomout="0" blendcolor="0x000000" zoomafterinfov="90"/>
+    <autorotate delay="5.00" startloaded="0" nodefilter="" speed="0.010" enabled="1" useanimation="0" noderandom="1" nodedelay="0.00" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertcontrol="1" dblclickfullscreen="0" invertwheel="0" hideabout="1" sensitivity="8" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" speedwheel="1" contextvr="0" simulatemass="1" contextfullscreen="1"/>
   </panorama>
   <masternode>
-    <userdata comment="" tags="" description="" latitude="" heading="0" source="" author="" info="" datetime="" copyright="" nodeid="master" longitude="" title="" customnodeid=""/>
+    <userdata tags="" longitude="" description="" heading="0" latitude="" source="" nodeid="master" copyright="" title="" info="" comment="" datetime="" customnodeid="" author=""/>
   </masternode>
 </tour>
