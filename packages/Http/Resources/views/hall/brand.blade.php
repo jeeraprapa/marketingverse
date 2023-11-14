@@ -46,7 +46,7 @@
             <div class="block-photo">
                 <div class="icon position-absolute z-3">
                     <a href="#gallery" onclick="showGallery()">
-                        <img src="{{asset('images/PHOTO.png')}}" alt="photo" class="icon-block">
+                        <img src="{{asset('images/PHOTO.png')}}" alt="photo" class="icon-block icon-block-photo">
                     </a>
                 </div>
             </div>
@@ -83,7 +83,7 @@
             <div class="block-info">
                 <div class="icon position-absolute z-3">
                     <a href="#infoModal" data-bs-toggle="modal" data-bs-target="#infoModal">
-                        <img src="{{asset('images/INFO.png')}}" alt="info" class="icon-block">
+                        <img src="{{asset('images/INFO.png')}}" alt="info" class="icon-block icon-block-info">
                     </a>
                 </div>
             </div>

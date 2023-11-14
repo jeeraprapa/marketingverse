@@ -7,7 +7,7 @@
         background-size: 100% 100%
         background-position-y: top
     .icon-block
-        width: 15px
+        width: 29px
         height: auto
         opacity: 0
         @include screen('md')
@@ -29,11 +29,37 @@
             width: 78px
             height: auto
 
+    .icon-block-photo
+        width: 29px
+        height: 45px
+        @include screen('wide')
+            width: 72px
+            height: 119px
+        @include screen('xwide')
+            width: 93px
+            height: 125px
+        @include screen('xlwide')
+            width: 78px
+            height: auto
+
+    .icon-block-info
+        width: 100px
+        height: 19px
+        @include screen('wide')
+            width: 249px
+            height: 61px
+        @include screen('xwide')
+            width: 248px
+            height: 72px
+        @include screen('xlwide')
+            width: 78px
+            height: auto
+
 
     .block-photo
         .icon
-            top: 50%
-            left: 5.5%
+            top: 51%
+            left: 5%
             @include screen('sm')
                 top: 50.5%
                 left: 5.5%
@@ -47,8 +73,8 @@
                 top: 52.7%
                 left: 7.7%
             @include screen('wide')
-                top: 54%
-                left: 14%
+                top: 53%
+                left: 12%
             @include screen('xwide')
                 top: 53%
                 left: 21%
@@ -84,8 +110,8 @@
 
     .block-brochure
         .icon
-            top: 49%
-            left: 53.5%
+            top: 50%
+            left: 53%
             @include screen('sm')
                 top: 49.2%
                 left: 53.2%
@@ -110,8 +136,8 @@
 
     .block-doc
         .icon
-            top: 49%
-            left: 62.5%
+            top: 50%
+            left: 62%
             @include screen('sm')
                 top: 49.2%
                 left: 62.1%
@@ -136,7 +162,7 @@
 
     .block-info
         .icon
-            top: 53.4%
+            top: 54.4%
             left: 39.1%
             @include screen('sm')
                 top: 54.5%
@@ -151,10 +177,10 @@
                 top: 64%
                 left: 40%
             @include screen('wide')
-                top: 68%
+                top: 63%
                 left: 41%
             @include screen('xwide')
-                top: 63%
+                top: 65%
                 left: 43%
             @include screen('xlwide')
                 top: 62%
@@ -162,8 +188,8 @@
 
     .block-poster
         .icon
-            top: 51.2%
-            left: 85.6%
+            top: 52.2%
+            left: 83.6%
             @include screen('sm')
                 top: 51.7%
                 left: 85%
@@ -177,8 +203,8 @@
                 top: 56.7%
                 left: 83.6%
             @include screen('wide')
-                top: 60%
-                left: 77%
+                top: 57%
+                left: 79%
             @include screen('xwide')
                 top: 58%
                 left: 71.5%
